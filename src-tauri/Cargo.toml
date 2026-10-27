@@ -11,7 +11,7 @@ readme = "../README.md"
 
 
 [build-dependencies]
-syn = { version = "2", features = ["full"] }
+syn = { version = "3", features = ["full"] }
 serde_json = "1"
 tauri-build = { version = "2", features = [] }
 
@@ -21,23 +21,23 @@ tauri-plugin-opener = "2"
 tauri-plugin-shell = "2"
 serde = { version = "1", features = ["derive"] }
 serde_json = "1"
-sqlx = { version = "0.7", features = ["runtime-tokio-rustls", "sqlite", "chrono", "uuid"] }
+sqlx = { version = "0.8", features = ["runtime-tokio-rustls", "sqlite", "chrono", "uuid"] }
 tokio = { version = "1", features = ["full"] }
 chrono = { version = "0.4", features = ["serde"] }
 graph-rs-sdk = "3.0"
-oauth2 = "4.4"
-reqwest = { version = "0.12", features = ["json"] }
+oauth2 = "5.0"
+reqwest = { version = "0.13", features = ["json"] }
 url = "2.5"
 dotenv = "0.15"
-base64 = "0.22"
+base64 = "0.23"
 regex = "1.10"
-dirs = "5.0"
+dirs = "6.0"
 async-trait = "0.1"
 uuid = { version = "1.0", features = ["v4", "serde"] }
 urlencoding = "2.1"
 open = "5.0"
 futures = "0.3"
-sha2 = "0.10"
+sha2 = "0.11"
 percent-encoding = "2.3"
 lazy_static = "1.4"
 tokio-rustls = "0.26"
@@ -46,14 +46,14 @@ icalendar = "0.17"
 async-imap = { version = "0.12", default-features = false, features = ["runtime-tokio"] }
 mail-parser = "0.11"
 lettre = { version = "0.11", default-features = false, features = ["builder", "smtp-transport", "tokio1", "tokio1-rustls-tls", "hostname"] }
-maxminddb = "0.24"
+maxminddb = "0.32"
 gtmpl = "0.7"
 keyring = { version = "3", features = ["apple-native"] }
 clap = { version = "4", features = ["string"] }
 clap_complete = "4"
 libc = "0.2.190"
 rhai = { version = "1.26.1", features = ["sync", "serde", "internals", "metadata"] }
-lopdf = { version = "0.45", default-features = false }
+lopdf = { version = "0.46", default-features = false }
 cpal = "0.18"
 rubato = "5"
 nnnoiseless = { version = "0.5", default-features = false }
@@ -63,7 +63,7 @@ zip = { version = "9", default-features = false, features = ["deflate-flate2"] }
 image = { version = "0.25", default-features = false, features = ["png", "jpeg", "gif"] }
 tokio-tungstenite = { version = "0.30", features = ["rustls-tls-webpki-roots"] }
 serde_yaml_ng = "0.10"
-minijinja = "2"
+minijinja = "3"
 
 [features]
 webdriver = ["tauri-plugin-webdriver"]
@@ -74,7 +74,7 @@ optional = true
 
 [dev-dependencies]
 tokio = { version = "1", features = ["full", "test-util"] }
-wiremock = "=0.6.4"
+wiremock = "=0.6.5"
 tempfile = "3.10"
 fantoccini = "0.22"
 
