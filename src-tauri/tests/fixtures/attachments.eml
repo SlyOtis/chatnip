@@ -1,0 +1,43 @@
+Received: from mail.client.example (mail.client.example [91.189.88.10]) by mx.northwind.example with ESMTPS; Tue, 6 Oct 2026 09:12:00 +0200
+From: Anna Berg <anna.berg@client.example>
+To: Milo Oakes <milo@northwind.example>
+Subject: Tilbud og budsjett
+Date: Tue, 6 Oct 2026 09:11:58 +0200
+Message-ID: <attach-1@client.example>
+MIME-Version: 1.0
+Content-Type: multipart/mixed; boundary="mixed"
+
+--mixed
+Content-Type: multipart/related; boundary="related"
+
+--related
+Content-Type: text/html; charset=utf-8
+
+<html><body><p>Hei Milo,</p><p>Her er tilbudet, budsjettet og skissene.</p><p><img src="cid:logo@client.example" alt="Kunde AS" width="120"></p></body></html>
+--related
+Content-Type: image/png; name="logo.png"
+Content-Transfer-Encoding: base64
+Content-ID: <logo@client.example>
+Content-Disposition: inline; filename="logo.png"
+
+iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAACklEQVR4nGMAAQAABQABDQottAAAAABJRU5ErkJggg==
+--related--
+--mixed
+Content-Type: application/pdf; name="tilbud.pdf"
+Content-Transfer-Encoding: base64
+Content-Disposition: attachment; filename="tilbud.pdf"
+
+JVBERi0xLjQKMSAwIG9iajw8Pj5lbmRvYmoKJSVFT0YgICAK
+--mixed
+Content-Type: application/vnd.openxmlformats-officedocument.spreadsheetml.sheet; name="budsjett.xlsx"
+Content-Transfer-Encoding: base64
+Content-Disposition: attachment; filename="budsjett.xlsx"
+
+UEsFBgAAAAAAAAAAAAAAAAAAAAAAAA==
+--mixed
+Content-Type: application/zip; name="skisser.zip"
+Content-Transfer-Encoding: base64
+Content-Disposition: attachment; filename="skisser.zip"
+
+UEsFBgAAAAAAAAAAAAAAAAAAAAAAAA==
+--mixed--

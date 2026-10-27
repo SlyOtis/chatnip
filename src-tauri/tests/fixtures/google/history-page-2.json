@@ -1,0 +1,7 @@
+{
+  "history": [
+    { "id": "9003", "messagesDeleted": [{ "message": { "id": "m-3", "threadId": "t-2" } }] },
+    { "id": "9004", "labelsAdded": [{ "message": { "id": "m-4", "threadId": "t-2", "labelIds": ["TRASH"] }, "labelIds": ["TRASH"] }] }
+  ],
+  "historyId": "9004"
+}

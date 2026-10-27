@@ -1,0 +1,59 @@
+Received: from AM0PR02MB1234.eurprd02.prod.outlook.com (mail-am0eur02.outbound.protection.outlook.com [40.107.0.112]) by mx.chatnip.local with ESMTPS; Tue, 6 Oct 2026 10:02:11 +0000
+From: Lea Lindqvist <lea.lindqvist@northwind.example>
+To: Milo Oakes <milo@northwind.example>, Eva Ortega <eva.ortega@northwind.example>, Sam Hale <sam.hale@northwind.example>
+Subject: Sprintdemo: inbox, mail renderer og mock-klienter
+Date: Tue, 6 Oct 2026 10:02:10 +0000
+Message-ID: <AM0PR02MB1234.sprintdemo@northwind.example>
+MIME-Version: 1.0
+Content-Type: multipart/alternative; boundary="inv-alt"
+
+--inv-alt
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: 8bit
+
+Hei alle, demo av sprint 31 fredag 14:00.
+
+--inv-alt
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: 8bit
+
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=utf-8"></head>
+<body><div style="font-family:Aptos,Calibri,Helvetica,sans-serif;font-size:12pt;color:rgb(0,0,0)">
+<p>Hei alle,</p>
+<p>Vi tar demo av sprint 31 på fredag. Ta med det dere har, også det som ikke er ferdig.</p>
+<ol><li>Superhuman-innboksen og splittene (Milo)</li><li>Mail renderer i sandkasse (Sam)</li><li>Mock-klientene og testdataene (Eva)</li></ol>
+<p>Agenda og opptak ligger i <a href="https://northwind.sharepoint.com/sites/chatnip/Sprint31">Sprint31-mappa</a>.</p>
+</div>
+<div style="font-family:'Segoe UI',sans-serif;margin-top:16px">
+<hr style="border:none;border-top:1px dashed #c8c6c4">
+<div style="font-size:24px;color:#252424;font-weight:600">Microsoft Teams-møte</div>
+<div style="margin-top:8px"><a href="https://teams.microsoft.com/l/meetup-join/19%3ameeting_ZmFrZQ%40thread.v2/0" style="font-size:14px;font-weight:600;color:#5b5fc7">Bli med i møtet nå</a></div>
+<div style="font-size:14px;color:#252424;margin-top:8px">Møte-ID: 382 991 004 117 · Passord: Xq7mPz</div>
+<hr style="border:none;border-top:1px dashed #c8c6c4">
+</div>
+</body></html>
+
+--inv-alt
+Content-Type: text/calendar; charset="utf-8"; method=REQUEST
+Content-Transfer-Encoding: 8bit
+
+BEGIN:VCALENDAR
+METHOD:REQUEST
+PRODID:Microsoft Exchange Server 2010
+VERSION:2.0
+BEGIN:VEVENT
+ORGANIZER;CN=Lea Lindqvist:mailto:lea.lindqvist@northwind.example
+ATTENDEE;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;RSVP=TRUE;CN=Milo Oakes:mailto:milo@northwind.example
+ATTENDEE;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;RSVP=TRUE;CN=Eva Ortega:mailto:eva.ortega@northwind.example
+SUMMARY;LANGUAGE=nb-NO:Sprintdemo
+DTSTART:20261016T120000Z
+DTEND:20261016T130000Z
+UID:040000008200E00074C5B7101A82E00800000000SPRINTDEMO31
+LOCATION;LANGUAGE=nb-NO:Microsoft Teams-møte
+STATUS:CONFIRMED
+SEQUENCE:0
+DTSTAMP:20261006T100210Z
+END:VEVENT
+END:VCALENDAR
+
+--inv-alt--

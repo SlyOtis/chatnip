@@ -1,0 +1,18 @@
+{
+  "value": [
+    {
+      "id": "19:old@thread.v2",
+      "topic": "Gammel",
+      "chatType": "oneOnOne",
+      "lastUpdatedDateTime": "2020-01-01T00:00:00.000Z",
+      "members": []
+    },
+    {
+      "id": "19:planning@thread.v2",
+      "topic": "Planning",
+      "chatType": "meeting",
+      "lastUpdatedDateTime": "2026-10-14T12:00:00.000Z",
+      "members": []
+    }
+  ]
+}

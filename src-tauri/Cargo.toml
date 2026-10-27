@@ -1,0 +1,93 @@
+[package]
+name = "chatnip"
+version = "0.1.0"
+description = "One local inbox for Outlook, Teams, Gmail, Slack, IMAP and calendars"
+authors = ["Martin Ottersland"]
+edition = "2021"
+license = "MIT"
+repository = "https://github.com/SlyOtis/chatnip"
+homepage = "https://github.com/SlyOtis/chatnip"
+readme = "../README.md"
+
+
+[build-dependencies]
+syn = { version = "2", features = ["full"] }
+serde_json = "1"
+tauri-build = { version = "2", features = [] }
+
+[dependencies]
+tauri = { version = "2", features = ["macos-private-api", "protocol-asset"] }
+tauri-plugin-opener = "2"
+tauri-plugin-shell = "2"
+serde = { version = "1", features = ["derive"] }
+serde_json = "1"
+sqlx = { version = "0.7", features = ["runtime-tokio-rustls", "sqlite", "chrono", "uuid"] }
+tokio = { version = "1", features = ["full"] }
+chrono = { version = "0.4", features = ["serde"] }
+graph-rs-sdk = "3.0"
+oauth2 = "4.4"
+reqwest = { version = "0.12", features = ["json"] }
+url = "2.5"
+dotenv = "0.15"
+base64 = "0.22"
+regex = "1.10"
+dirs = "5.0"
+async-trait = "0.1"
+uuid = { version = "1.0", features = ["v4", "serde"] }
+urlencoding = "2.1"
+open = "5.0"
+futures = "0.3"
+sha2 = "0.10"
+percent-encoding = "2.3"
+lazy_static = "1.4"
+tokio-rustls = "0.26"
+webpki-roots = "1"
+icalendar = "0.17"
+async-imap = { version = "0.12", default-features = false, features = ["runtime-tokio"] }
+mail-parser = "0.11"
+lettre = { version = "0.11", default-features = false, features = ["builder", "smtp-transport", "tokio1", "tokio1-rustls-tls", "hostname"] }
+maxminddb = "0.24"
+gtmpl = "0.7"
+keyring = { version = "3", features = ["apple-native"] }
+clap = { version = "4", features = ["string"] }
+clap_complete = "4"
+libc = "0.2.190"
+rhai = { version = "1.26.1", features = ["sync", "serde", "internals", "metadata"] }
+lopdf = { version = "0.45", default-features = false }
+cpal = "0.18"
+rubato = "5"
+nnnoiseless = { version = "0.5", default-features = false }
+flate2 = "1.1"
+tauri-plugin-notification = "2.4"
+zip = { version = "9", default-features = false, features = ["deflate-flate2"] }
+image = { version = "0.25", default-features = false, features = ["png", "jpeg", "gif"] }
+tokio-tungstenite = { version = "0.30", features = ["rustls-tls-webpki-roots"] }
+serde_yaml_ng = "0.10"
+minijinja = "2"
+
+[features]
+webdriver = ["tauri-plugin-webdriver"]
+
+[dependencies.tauri-plugin-webdriver]
+version = "0.2"
+optional = true
+
+[dev-dependencies]
+tokio = { version = "1", features = ["full", "test-util"] }
+wiremock = "=0.6.4"
+tempfile = "3.10"
+fantoccini = "0.22"
+
+[target.'cfg(target_os = "macos")'.dependencies]
+block2 = "0.6"
+objc2 = "0.6"
+objc2-foundation = { version = "0.3", features = ["NSDistributedNotificationCenter", "NSNotification", "NSString", "NSError", "NSOperation", "NSData", "NSDictionary", "NSArray", "NSURL", "block2"] }
+objc2-local-authentication = "0.3.2"
+objc2-app-kit = { version = "0.3", default-features = false, features = ["std", "NSResponder", "NSEvent", "NSWindow", "NSPanel", "NSApplication"] }
+objc2-quick-look-ui = { version = "0.3", default-features = false, features = ["std", "QLPreviewPanel", "QLPreviewItem", "objc2-app-kit"] }
+objc2-user-notifications = { version = "0.3", features = ["block2", "UNUserNotificationCenter", "UNNotificationRequest", "UNNotificationContent", "UNNotificationResponse", "UNNotification", "UNNotificationSettings", "UNNotificationTrigger"] }
+objc2-vision = { version = "0.3", default-features = false, features = ["std", "VNRequest", "VNRecognizeTextRequest", "VNRequestHandler", "VNObservation", "VNTypes"] }
+whisper-rs = { version = "0.16", features = ["metal"] }
+
+[target.'cfg(not(target_os = "macos"))'.dependencies]
+whisper-rs = "0.16"

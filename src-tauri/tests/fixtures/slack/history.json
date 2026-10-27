@@ -1,0 +1,9 @@
+{
+  "ok": true,
+  "messages": [
+    { "type": "message", "ts": "1760515300.000200", "bot_id": "B0CI", "text": "Build passed :white_check_mark:", "bot_profile": { "name": "CI" } },
+    { "type": "message", "ts": "1760515200.000100", "user": "U0ANNA", "text": "Ny release :tada:", "reply_count": 3, "thread_ts": "1760515200.000100" }
+  ],
+  "has_more": false,
+  "response_metadata": { "next_cursor": "" }
+}

@@ -1,0 +1,46 @@
+{
+  "kind": "calendar#events",
+  "items": [
+    {
+      "id": "7kq3abc",
+      "status": "confirmed",
+      "summary": "Signering: plattformdrift 2027",
+      "description": "Vi går gjennom avtalen.",
+      "location": "Kunde AS, Oslo",
+      "iCalUID": "040000008200E00074C5B7101A82E008000000001",
+      "start": { "dateTime": "2026-10-16T13:00:00+02:00", "timeZone": "Europe/Oslo" },
+      "end": { "dateTime": "2026-10-16T14:00:00+02:00", "timeZone": "Europe/Oslo" },
+      "organizer": { "email": "Anna.Berg@client.example" },
+      "attendees": [
+        { "email": "anna.berg@client.example", "organizer": true, "responseStatus": "accepted" },
+        { "email": "milo@sundial.example", "self": true, "responseStatus": "tentative" }
+      ],
+      "hangoutLink": "https://meet.google.com/abc-defg-hij",
+      "updated": "2026-10-10T08:00:00.000Z"
+    },
+    {
+      "id": "cabin1",
+      "status": "confirmed",
+      "summary": "Hytta",
+      "start": { "date": "2026-10-23" },
+      "end": { "date": "2026-10-25" },
+      "updated": "2026-10-01T08:00:00.000Z"
+    },
+    {
+      "id": "gone1",
+      "status": "cancelled",
+      "summary": "Old",
+      "start": { "dateTime": "2026-10-18T09:00:00Z" },
+      "end": { "dateTime": "2026-10-18T10:00:00Z" }
+    },
+    {
+      "id": "meet1",
+      "status": "confirmed",
+      "summary": "Styremøte",
+      "start": { "dateTime": "2026-10-20T16:00:00Z" },
+      "end": { "dateTime": "2026-10-20T17:30:00Z" },
+      "conferenceData": { "entryPoints": [ { "entryPointType": "phone", "uri": "tel:+47-21-00" }, { "entryPointType": "video", "uri": "https://meet.google.com/xyz-board" } ] }
+    }
+  ],
+  "nextPageToken": null
+}

@@ -1,0 +1,53 @@
+// The Chat node. Built in: the app owns this schema and nobody edits or deletes it.
+// A chat is the start of an action when nothing is wired into the node, and the end when something is.
+{
+  "key": "chat",
+  "label": "Chat",
+  "icon": "lucide:messages-square",
+  "description": "A chat as the start or the end of an action. With nothing wired in it starts the action; with something wired in it delivers to the chat.",
+  "config": {
+    "type": "object",
+    "properties": {
+      "mode": { "type": "string", "enum": ["read", "write"], "description": "Which side of the chat the node stands on." },
+      // Empty means the chat the action is attached to.
+      "conversation_id": { "type": ["string", "null"], "description": "The chat, or empty for the chat the action is attached to." }
+    },
+    "required": ["mode"]
+  },
+  "variants": {
+    "read": {
+      "label": "Read chat",
+      "icon": "lucide:book-open",
+      "description": "Starts on every item that flows into the read chat, and delivers records into it.",
+      "start": "An item flows into the read chat",
+      "end": "Each record wired in lands in the read chat",
+      "inputs": [
+        { "name": "items", "type": "list", "description": "Records to put in the chat, one item each" },
+        { "name": "item", "type": "json", "description": "One record to put in the chat" }
+      ],
+      "outputs": [
+        { "name": "item", "type": "json", "description": "The item that flowed in" },
+        { "name": "message", "type": "message", "description": "The message behind the item, when there is one" },
+        { "name": "conversation", "type": "conversation", "description": "Where the item came from" },
+        { "name": "person", "type": "person", "description": "Who it came from, when known" },
+        { "name": "text", "type": "text", "description": "The subject and text of the item" }
+      ],
+    },
+    "write": {
+      "label": "Write chat",
+      "icon": "lucide:pen-line",
+      "description": "Starts when a message arrives in the chat or you send one there, and writes into it.",
+      "start": "A message arrives in the chat or you send one",
+      "end": "The text wired in is written into the chat",
+      "inputs": [
+        { "name": "text", "type": "text", "description": "What to write into the chat" }
+      ],
+      "outputs": [
+        { "name": "message", "type": "message", "description": "The message that arrived or was sent" },
+        { "name": "conversation", "type": "conversation", "description": "The chat" },
+        { "name": "person", "type": "person", "description": "Who wrote it, when known" },
+        { "name": "text", "type": "text", "description": "The subject and text of the message" }
+      ]
+    }
+  }
+}

@@ -1,0 +1,53 @@
+Received: from mail-sor-f41.google.com (mail-sor-f41.google.com [209.85.220.41])
+	by mx.chatnip.local with ESMTPS; Mon, 5 Oct 2026 14:20:02 +0200
+From: Google Calendar <calendar-notification@google.com>
+Reply-To: Mia Sund <mia.sund@design.no>
+To: milo@northwind.example
+Subject: Invitation: Designreview @ Thu 8 Oct 2026 13:00 - 14:00 (CEST) (milo@northwind.example)
+Date: Mon, 5 Oct 2026 14:20:00 +0200
+Message-ID: <invite-5@google.com>
+MIME-Version: 1.0
+Content-Type: multipart/mixed; boundary="mixed-5"
+
+--mixed-5
+Content-Type: multipart/alternative; boundary="alt-5"
+
+--alt-5
+Content-Type: text/plain; charset="UTF-8"
+
+You have been invited to the following event.
+
+Designreview
+When: Thu 8 Oct 2026 13:00 – 14:00 Central European Summer Time
+Where: Møterom Fjell, Oslo
+Organizer: mia.sund@design.no
+
+--alt-5
+Content-Type: text/calendar; charset="UTF-8"; method=REQUEST
+
+BEGIN:VCALENDAR
+PRODID:-//Google Inc//Google Calendar 70.9054//EN
+VERSION:2.0
+METHOD:REQUEST
+BEGIN:VEVENT
+DTSTART:20261008T110000Z
+DTEND:20261008T120000Z
+DTSTAMP:20261005T122000Z
+ORGANIZER;CN=Mia Sund:mailto:mia.sund@design.no
+UID:7k3m9c2n8p1q@google.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;CN=milo@northwind.example:mailto:milo@northwind.example
+LOCATION:Møterom Fjell\, Oslo
+SUMMARY:Designreview
+DESCRIPTION:Gjennomgang av de tre skissene.
+END:VEVENT
+END:VCALENDAR
+
+--alt-5--
+
+--mixed-5
+Content-Type: application/ics; name="invite.ics"
+Content-Disposition: attachment; filename="invite.ics"
+Content-Transfer-Encoding: base64
+
+QkVHSU46VkNBTEVOREFSDQpWRVJTSU9OOjIuMA0KRU5EOlZDQUxFTkRBUg0K
+--mixed-5--

@@ -1,0 +1,6 @@
+{
+  "value": [
+    { "id": "AAMkAGI2-cal-1", "name": "Calendar", "color": "auto", "hexColor": "#0f6cbd", "isDefaultCalendar": true, "canEdit": true, "owner": { "name": "Milo Oakes", "address": "milo@northwind.example" } },
+    { "id": "AAMkAGI2-cal-2", "name": "Norway holidays", "color": "lightGray", "hexColor": "", "isDefaultCalendar": false, "canEdit": false }
+  ]
+}

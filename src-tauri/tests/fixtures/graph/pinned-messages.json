@@ -1,0 +1,6 @@
+{
+  "value": [
+    { "id": "pin-1", "message": { "id": "1700", "messageType": "message" } },
+    { "id": "pin-2", "message": { "id": "1699", "messageType": "message" } }
+  ]
+}

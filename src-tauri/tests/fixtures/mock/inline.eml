@@ -1,0 +1,118 @@
+Received: from smtp.tidewater.example (smtp.tidewater.example [195.18.200.41]) by mx.chatnip.local with ESMTPS; Fri, 9 Oct 2026 11:30:12 +0000
+From: Kari Nordmann <kari.nordmann@tidewater.example>
+To: Milo Oakes <milo@northwind.example>
+Cc: Ola Hansen <ola.hansen@tidewater.example>
+Subject: Statusrapport plattform uke 41
+Date: Fri, 9 Oct 2026 13:30:10 +0200
+Message-ID: <status-uke41@tidewater.example>
+MIME-Version: 1.0
+Content-Type: multipart/mixed; boundary="mix41"
+
+--mix41
+Content-Type: multipart/related; boundary="rel41"
+
+--rel41
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: 8bit
+
+<html><body style="font-family:Calibri,Arial,sans-serif;font-size:11pt">
+<p>Hei Milo,</p>
+<p>Her er statusrapporten for uke 41. Kortversjonen: oppetid 99,97 %, to hendelser, begge løst innen SLA.</p>
+<p><img src="cid:chart-uke41@tidewater.example" alt="Oppetid per dag, uke 41" width="96" height="96"></p>
+<p>Detaljene ligger i PDF-en, rådata i regnearket, og loggene fra hendelsene i zip-fila. Diagrammet er også vedlagt som PNG.</p>
+<p>Hilsen<br>Kari</p>
+<div class="signature"><table><tr><td><img src="cid:tidewater-logo@tidewater.example" alt="Tidewater" width="120" height="40"></td><td style="padding-left:12px;font-size:9pt;color:#555">Kari Nordmann · Platform engineer<br>Tidewater Hotels · +47 900 11 222</td></tr></table></div>
+</body></html>
+--rel41
+Content-Type: image/png; name="chart-uke41.png"
+Content-Transfer-Encoding: base64
+Content-ID: <chart-uke41@tidewater.example>
+Content-Disposition: inline; filename="chart-uke41.png"
+
+iVBORw0KGgoAAAANSUhEUgAAAGAAAABgCAIAAABt+uBvAAAAAXNSR0IArs4c6QAAAHhlWElmTU0A
+KgAAAAgABAEaAAUAAAABAAAAPgEbAAUAAAABAAAARgEoAAMAAAABAAIAAIdpAAQAAAABAAAATgAA
+AAAAAABIAAAAAQAAAEgAAAABAAOgAQADAAAAAQABAACgAgAEAAAAAQAAAGCgAwAEAAAAAQAAAGAA
+AAAAmrxreQAAAAlwSFlzAAALEwAACxMBAJqcGAAAA+9JREFUeAHtnFlv00AQxzHiMQ6x8yX4DNAj
+oS0gSmkpxxuIQ9z38dAPwX2JQ0JIvHEUSikCeqUHfBTekpQ4H4B1XLlbeaOxd2cdbzRWFY1ndmZn
+f/6v++S1/k7s2MIui/1ZG7++x7+1QmdkjB+KOFuerkrc6i+JrvYECFB7Nq0IASJAAAEgTAoiQAAB
+IEwKIkAAASBMCiJAAAEgTAoiQAABIEwKAgBtA+Kaw4Xjs3Fm+Dc5HGeYjjEdAFQ4OZd0JdvHZ8KU
+xtSB0E7BSBWQc3pefUn50W+sSGN6RL1UnAppAHLOLsZpJdGY/Mh0ML4xczBRYtLB2l/Szjl8Ovwi
+88Nf+Vt0W6OCnPMV9HaFBfP7p5jf+zEmjCo6dSnIuVBR7Cxpur3vS9KUOOPxFeReWoozsY4x9l6f
+kffrEGJxZAW5l5cRm5MrZe/5LJcozMIElAU6wSLtITRGaIDcK53XDi8Be3CSv5W2cQC5V1ekO9CX
+aA8gMEIA5F7LIp2Au737k+IDQACk2EHG01UBuddXM75Cu6wkIiVA7o2s0wkeXq70UfopKgGSntWg
+RHlApshHUUSSgIo3fxukgnVG/TIbTRKQcXSkGyZAADoZQMVb5u2v9V3W9wHgEQnLAIoU6WZHYkDF
+23+M5pHrTSaixICMpiPRPAECoBEgVEDFO2a/gAIYuZ73ABUuTAriYIhMAiSiwvkIEAdDZBIgERXO
+R4A4GCKTAImocD4CxMEQmQRIRIXzESAOhsgkQCIqnI8AcTBEJgESUeF8yQBV7+7kck01m6vH4ree
+DFD8ul0zkgABj5IAYQOq3jP7NdRcOQog2RwmBW3mEbmTAVS9vytSxwxHczmZfNiqZACZAQOpSwIE
+gJQEVH1g3i5rLh0BYIjCkoBYqdrDHlHBjPqaFRk6bDHygDJKArstJUCmiEhaPggKqj3K+kbzFg+r
+qEpJQSoTm5KLAKj2uDezq/UWlOTD1oUAiFWpPckiI29+XP3J4QDyGT3tU+8GsYI3h0CH9YMGyGf0
+LCuMvFm0rzIxAWWEEe43q/gf9dae97MjPN2LHfi01/s55h8ginohKyjsrf6iFNrpGJq+m8dXUIij
+/rLEnqfukxfYdI3vo+vHzoZz4xm6FBR2WH9VDm0dhu6zOzQqKMRRf10OzhZ2ziyETkXDP/0lOKlY
+sRCUngagsIf6mwG2F5xTSofk+OcHpYImaDtVQMGUa28HfYP9t7GswonYJ1AFh1sHiUGhVH47AIhf
+19q7oQ05tHTR9ohvPi1FW/tLOsW1aJmKAAFYCRABAggAYVIQAQIIAGFSEAECCABhUhABAggAYVIQ
+AQIIAGFSEAECCADh/ziWicJgQnZ1AAAAAElFTkSuQmCC
+--rel41
+Content-Type: image/png; name="tidewater-logo.png"
+Content-Transfer-Encoding: base64
+Content-ID: <tidewater-logo@tidewater.example>
+Content-Disposition: inline; filename="tidewater-logo.png"
+
+iVBORw0KGgoAAAANSUhEUgAAAHgAAAAoCAIAAAC6iKlyAAAAAXNSR0IArs4c6QAAAHhlWElmTU0A
+KgAAAAgABAEaAAUAAAABAAAAPgEbAAUAAAABAAAARgEoAAMAAAABAAIAAIdpAAQAAAABAAAATgAA
+AAAAAABIAAAAAQAAAEgAAAABAAOgAQADAAAAAQABAACgAgAEAAAAAQAAAHigAwAEAAAAAQAAACgA
+AAAAA36uEgAAAAlwSFlzAAALEwAACxMBAJqcGAAAAalJREFUaAXt2u1OwjAUBuBhvBjvQUkAPxLF
+i1GjVyFRL0bxh3wl6nXN03UQnGQpa/fuNXmXUFY49LRPT/aH9o4uJlmeZ1nWs1detPZmXdf4rt0X
+nf1j/Jj14+yMcR/atZ5P2phycLfG9cL/5NoZ401sWn4+4TEWeVAsSE3rAoJundgnELSgQQKgNKpo
+EPQhKE9cmo/VXf0Al/1JfUDn37JDz1a3IUbvn/cWdnXCy0396JiHKW92YvrluDkvXuj5MqiWK6y0
+1qTQzZQ9+htlXTNCLxrV8nZpE1rTQccre/HX74dt+s7v6aA7F2lpAlzQy8VNwnVSFTUXdEJltqEE
+DdoRQQsaJABKo4oWNEgAlEYVLWiQACiNKlrQIAFQGq6KHo5eEq77+vgx4WiRQ3FBRy6G+ed00KPh
+cxIvqnK2FdFB25zircd8/9IyQpv1aURdEyqTVrRNy65m1rQnDkgrurQe7Pe8plW25bAfoDlz1vks
+4KTS5rSy3yS2lh3ae50PnorT8b8Oxpey5WF1NtjqfKgfHdXJ/ue+oEG7J2hBgwRAaVTRggYJgNL8
+AL2CaWR+I9BqAAAAAElFTkSuQmCC
+--rel41--
+--mix41
+Content-Type: application/pdf; name="statusrapport-uke41.pdf"
+Content-Transfer-Encoding: base64
+Content-Disposition: attachment; filename="statusrapport-uke41.pdf"
+
+JVBERi0xLjQKMSAwIG9iajw8Pj5lbmRvYmoKJSVFT0YgICAK
+--mix41
+Content-Type: application/vnd.openxmlformats-officedocument.spreadsheetml.sheet; name="oppetid-uke41.xlsx"
+Content-Transfer-Encoding: base64
+Content-Disposition: attachment; filename="oppetid-uke41.xlsx"
+
+UEsFBgAAAAAAAAAAAAAAAAAAAAAAAA==
+--mix41
+Content-Type: image/png; name="oppetid-diagram.png"
+Content-Transfer-Encoding: base64
+Content-Disposition: attachment; filename="oppetid-diagram.png"
+
+iVBORw0KGgoAAAANSUhEUgAAAGAAAABgCAIAAABt+uBvAAAAAXNSR0IArs4c6QAAAHhlWElmTU0A
+KgAAAAgABAEaAAUAAAABAAAAPgEbAAUAAAABAAAARgEoAAMAAAABAAIAAIdpAAQAAAABAAAATgAA
+AAAAAABIAAAAAQAAAEgAAAABAAOgAQADAAAAAQABAACgAgAEAAAAAQAAAGCgAwAEAAAAAQAAAGAA
+AAAAmrxreQAAAAlwSFlzAAALEwAACxMBAJqcGAAAA+9JREFUeAHtnFlv00AQxzHiMQ6x8yX4DNAj
+oS0gSmkpxxuIQ9z38dAPwX2JQ0JIvHEUSikCeqUHfBTekpQ4H4B1XLlbeaOxd2cdbzRWFY1ndmZn
+f/6v++S1/k7s2MIui/1ZG7++x7+1QmdkjB+KOFuerkrc6i+JrvYECFB7Nq0IASJAAAEgTAoiQAAB
+IEwKIkAAASBMCiJAAAEgTAoiQAABIEwKAgBtA+Kaw4Xjs3Fm+Dc5HGeYjjEdAFQ4OZd0JdvHZ8KU
+xtSB0E7BSBWQc3pefUn50W+sSGN6RL1UnAppAHLOLsZpJdGY/Mh0ML4xczBRYtLB2l/Szjl8Ovwi
+88Nf+Vt0W6OCnPMV9HaFBfP7p5jf+zEmjCo6dSnIuVBR7Cxpur3vS9KUOOPxFeReWoozsY4x9l6f
+kffrEGJxZAW5l5cRm5MrZe/5LJcozMIElAU6wSLtITRGaIDcK53XDi8Be3CSv5W2cQC5V1ekO9CX
+aA8gMEIA5F7LIp2Au737k+IDQACk2EHG01UBuddXM75Cu6wkIiVA7o2s0wkeXq70UfopKgGSntWg
+RHlApshHUUSSgIo3fxukgnVG/TIbTRKQcXSkGyZAADoZQMVb5u2v9V3W9wHgEQnLAIoU6WZHYkDF
+23+M5pHrTSaixICMpiPRPAECoBEgVEDFO2a/gAIYuZ73ABUuTAriYIhMAiSiwvkIEAdDZBIgERXO
+R4A4GCKTAImocD4CxMEQmQRIRIXzESAOhsgkQCIqnI8AcTBEJgESUeF8yQBV7+7kck01m6vH4ree
+DFD8ul0zkgABj5IAYQOq3jP7NdRcOQog2RwmBW3mEbmTAVS9vytSxwxHczmZfNiqZACZAQOpSwIE
+gJQEVH1g3i5rLh0BYIjCkoBYqdrDHlHBjPqaFRk6bDHygDJKArstJUCmiEhaPggKqj3K+kbzFg+r
+qEpJQSoTm5KLAKj2uDezq/UWlOTD1oUAiFWpPckiI29+XP3J4QDyGT3tU+8GsYI3h0CH9YMGyGf0
+LCuMvFm0rzIxAWWEEe43q/gf9dae97MjPN2LHfi01/s55h8ginohKyjsrf6iFNrpGJq+m8dXUIij
+/rLEnqfukxfYdI3vo+vHzoZz4xm6FBR2WH9VDm0dhu6zOzQqKMRRf10OzhZ2ziyETkXDP/0lOKlY
+sRCUngagsIf6mwG2F5xTSofk+OcHpYImaDtVQMGUa28HfYP9t7GswonYJ1AFh1sHiUGhVH47AIhf
+19q7oQ05tHTR9ohvPi1FW/tLOsW1aJmKAAFYCRABAggAYVIQAQIIAGFSEAECCABhUhABAggAYVIQ
+AQIIAGFSEAECCADh/ziWicJgQnZ1AAAAAElFTkSuQmCC
+--mix41
+Content-Type: application/zip; name="hendelseslogger.zip"
+Content-Transfer-Encoding: base64
+Content-Disposition: attachment; filename="hendelseslogger.zip"
+
+UEsFBgAAAAAAAAAAAAAAAAAAAAAAAA==
+--mix41--

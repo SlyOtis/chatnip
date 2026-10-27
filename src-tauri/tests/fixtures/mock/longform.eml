@@ -1,0 +1,122 @@
+Received: from smtp.sundial.example (smtp.sundial.example [46.30.212.9]) by mx.chatnip.local with ESMTPS; Sun, 4 Oct 2026 19:02:00 +0000
+From: Oscar Strand <oscar.strand@sundial.example>
+To: Milo Oakes <milo@northwind.example>, Hugo Brandt <hugo.brandt@sundial.example>
+Subject: Strategi 2027: én innboks for alt (utkast 3)
+Date: Sun, 4 Oct 2026 21:01:58 +0200
+Message-ID: <strategi-2027-u3@sundial.example>
+MIME-Version: 1.0
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: 8bit
+
+<html><body style="font-family:Georgia,serif;font-size:16px;line-height:1.6">
+<p>Hei alle,</p>
+<p>Her er utkastet til strategien for 2027. Les gjerne alt før styremøtet, og kommenter direkte i svaret.</p>
+<h2>Bakgrunn</h2>
+<p>Testdataene våre skal dekke alt vi ser i virkeligheten, fra nyhetsbrev med nestede tabeller til lange tråder med sitater. Vi skal skrive ned beslutningene våre slik at nye folk forstår hvorfor ting er som de er. Målet for neste år er enkelt å formulere og vanskelig å levere: én innboks der mennesker kommer først og tjenester kommer sist. Integrasjonene må tåle at leverandørene endrer API-ene sine uten varsel, slik Slack gjorde to ganger i fjor. Designet skal føles rolig selv når innboksen er full, og hver handling skal ha en hurtigtast. </p>
+<p>Det er en styrke så lenge vi holder fokus og sier nei til funksjoner som bare passer for store team. Den største risikoen er ikke teknisk, men at vi prøver å løse alt samtidig og ender opp med et halvferdig produkt. Sorteringen skal kunne forklares med én setning, ellers stoler ikke brukerne på den. Konkurrentene våre bygger plattformer, mens vi bygger et verktøy for én person med mange kanaler. Vi har bevist at modellen fungerer for små team, men enterprise-kundene stiller andre krav til tilgangsstyring og revisjon. </p>
+<h3>Bakgrunn, del 2</h3>
+<p>Hver fase avsluttes med en demo for styret og en skriftlig vurdering av hva som gikk bra og hva som ikke gjorde det. Kalenderen er limet mellom kanalene, fordi nesten hver samtale ender med et møte eller en frist. Hver integrasjon skal ha en mock-klient med realistiske data, slik at vi kan teste uten ekte kontoer. Derfor foreslår jeg at vi deler året i tre faser med tydelige mål og en fast dato for hver av dem. Når vi bruker en språkmodell, skal den kjøre lokalt eller gjennom verktøy brukeren allerede har valgt selv. </p>
+<p>Prisingen bør være per sete med et gulv, slik Hugo anbefalte, og vi bør teste den på tre pilotkunder først. Tilgjengelighet er ikke et tillegg, og hver skjerm skal fungere med tastatur og skjermleser fra dag én. Vi skal måle suksess på hvor raskt brukerne svarer på mennesker, ikke på hvor mange meldinger de leser. Vi må ansette to utviklere til i første kvartal for å holde tempoet uten å brenne ut teamet. Ytelsen skal være like god med hundre tusen meldinger som med hundre, og det skal vi måle hver uke. </p>
+<ol>
+<li>Sorteringen skal kunne forklares med én setning, ellers stoler ikke brukerne på den.</li>
+<li>Når vi bruker en språkmodell, skal den kjøre lokalt eller gjennom verktøy brukeren allerede har valgt selv.</li>
+<li>Kalenderen er limet mellom kanalene, fordi nesten hver samtale ender med et møte eller en frist.</li>
+</ol>
+<h2>Fase 1: Grunnmuren</h2>
+<p>Den største risikoen er ikke teknisk, men at vi prøver å løse alt samtidig og ender opp med et halvferdig produkt. Sorteringen skal kunne forklares med én setning, ellers stoler ikke brukerne på den. Konkurrentene våre bygger plattformer, mens vi bygger et verktøy for én person med mange kanaler. Vi har bevist at modellen fungerer for små team, men enterprise-kundene stiller andre krav til tilgangsstyring og revisjon. Testdataene våre skal dekke alt vi ser i virkeligheten, fra nyhetsbrev med nestede tabeller til lange tråder med sitater. </p>
+<p>Kalenderen er limet mellom kanalene, fordi nesten hver samtale ender med et møte eller en frist. Hver integrasjon skal ha en mock-klient med realistiske data, slik at vi kan teste uten ekte kontoer. Derfor foreslår jeg at vi deler året i tre faser med tydelige mål og en fast dato for hver av dem. Når vi bruker en språkmodell, skal den kjøre lokalt eller gjennom verktøy brukeren allerede har valgt selv. Det er en styrke så lenge vi holder fokus og sier nei til funksjoner som bare passer for store team. </p>
+<h3>Fase 1: Grunnmuren, del 2</h3>
+<p>Tilgjengelighet er ikke et tillegg, og hver skjerm skal fungere med tastatur og skjermleser fra dag én. Vi skal måle suksess på hvor raskt brukerne svarer på mennesker, ikke på hvor mange meldinger de leser. Vi må ansette to utviklere til i første kvartal for å holde tempoet uten å brenne ut teamet. Ytelsen skal være like god med hundre tusen meldinger som med hundre, og det skal vi måle hver uke. Hver fase avsluttes med en demo for styret og en skriftlig vurdering av hva som gikk bra og hva som ikke gjorde det. </p>
+<p>Ingen data forlater maskinen uten at brukeren har bedt om det, og det skal være like sant om tolv måneder. Supporten skal være synlig i produktet, ikke gjemt bak et skjema på nettsiden. Kundene våre bruker i snitt fire ulike verktøy for å holde oversikt over samtaler med de samme menneskene. Lokal lagring er et salgsargument i seg selv, særlig hos kunder i offentlig sektor og finans. Prisingen bør være per sete med et gulv, slik Hugo anbefalte, og vi bør teste den på tre pilotkunder først. </p>
+<ul>
+<li>Testdataene våre skal dekke alt vi ser i virkeligheten, fra nyhetsbrev med nestede tabeller til lange tråder med sitater.</li>
+<li>Sorteringen skal kunne forklares med én setning, ellers stoler ikke brukerne på den.</li>
+<li>Når vi bruker en språkmodell, skal den kjøre lokalt eller gjennom verktøy brukeren allerede har valgt selv.</li>
+<li>Kalenderen er limet mellom kanalene, fordi nesten hver samtale ender med et møte eller en frist.</li>
+</ul>
+<table border="1" cellpadding="6" style="border-collapse:collapse"><tr><th>Kvartal</th><th>Mål</th><th>Ansvarlig</th><th>Budsjett (NOK)</th></tr>
+<tr><td>Q1</td><td>Mock-klienter og mail renderer</td><td>Sam</td><td>850 000</td></tr>
+<tr><td>Q2</td><td>Entra og Slack enterprise</td><td>Mike</td><td>1 200 000</td></tr>
+<tr><td>Q3</td><td>Saker, grupper og statistikk</td><td>Eva</td><td>950 000</td></tr>
+<tr><td>Q4</td><td>Pilotkunder og prising</td><td>Lea</td><td>600 000</td></tr></table>
+<h2>Fase 2: Enterprise</h2>
+<p>Hver integrasjon skal ha en mock-klient med realistiske data, slik at vi kan teste uten ekte kontoer. Derfor foreslår jeg at vi deler året i tre faser med tydelige mål og en fast dato for hver av dem. Når vi bruker en språkmodell, skal den kjøre lokalt eller gjennom verktøy brukeren allerede har valgt selv. Det er en styrke så lenge vi holder fokus og sier nei til funksjoner som bare passer for store team. Den største risikoen er ikke teknisk, men at vi prøver å løse alt samtidig og ender opp med et halvferdig produkt. </p>
+<p>Vi skal måle suksess på hvor raskt brukerne svarer på mennesker, ikke på hvor mange meldinger de leser. Vi må ansette to utviklere til i første kvartal for å holde tempoet uten å brenne ut teamet. Ytelsen skal være like god med hundre tusen meldinger som med hundre, og det skal vi måle hver uke. Hver fase avsluttes med en demo for styret og en skriftlig vurdering av hva som gikk bra og hva som ikke gjorde det. Kalenderen er limet mellom kanalene, fordi nesten hver samtale ender med et møte eller en frist. </p>
+<h3>Fase 2: Enterprise, del 2</h3>
+<p>Supporten skal være synlig i produktet, ikke gjemt bak et skjema på nettsiden. Kundene våre bruker i snitt fire ulike verktøy for å holde oversikt over samtaler med de samme menneskene. Lokal lagring er et salgsargument i seg selv, særlig hos kunder i offentlig sektor og finans. Prisingen bør være per sete med et gulv, slik Hugo anbefalte, og vi bør teste den på tre pilotkunder først. Tilgjengelighet er ikke et tillegg, og hver skjerm skal fungere med tastatur og skjermleser fra dag én. </p>
+<p>Målet for neste år er enkelt å formulere og vanskelig å levere: én innboks der mennesker kommer først og tjenester kommer sist. Integrasjonene må tåle at leverandørene endrer API-ene sine uten varsel, slik Slack gjorde to ganger i fjor. Designet skal føles rolig selv når innboksen er full, og hver handling skal ha en hurtigtast. Det koster dem tid hver eneste dag, og det koster oss tillit når viktige beskjeder blir borte mellom Teams, Slack og e-post. Ingen data forlater maskinen uten at brukeren har bedt om det, og det skal være like sant om tolv måneder. </p>
+<ol>
+<li>Ingen data forlater maskinen uten at brukeren har bedt om det, og det skal være like sant om tolv måneder.</li>
+<li>Integrasjonene må tåle at leverandørene endrer API-ene sine uten varsel, slik Slack gjorde to ganger i fjor.</li>
+<li>Testdataene våre skal dekke alt vi ser i virkeligheten, fra nyhetsbrev med nestede tabeller til lange tråder med sitater.</li>
+</ol>
+<h2>Fase 3: Organisering og innsikt</h2>
+<p>Vi må ansette to utviklere til i første kvartal for å holde tempoet uten å brenne ut teamet. Ytelsen skal være like god med hundre tusen meldinger som med hundre, og det skal vi måle hver uke. Hver fase avsluttes med en demo for styret og en skriftlig vurdering av hva som gikk bra og hva som ikke gjorde det. Kalenderen er limet mellom kanalene, fordi nesten hver samtale ender med et møte eller en frist. Hver integrasjon skal ha en mock-klient med realistiske data, slik at vi kan teste uten ekte kontoer. </p>
+<p>Kundene våre bruker i snitt fire ulike verktøy for å holde oversikt over samtaler med de samme menneskene. Lokal lagring er et salgsargument i seg selv, særlig hos kunder i offentlig sektor og finans. Prisingen bør være per sete med et gulv, slik Hugo anbefalte, og vi bør teste den på tre pilotkunder først. Tilgjengelighet er ikke et tillegg, og hver skjerm skal fungere med tastatur og skjermleser fra dag én. Vi skal måle suksess på hvor raskt brukerne svarer på mennesker, ikke på hvor mange meldinger de leser. </p>
+<h3>Fase 3: Organisering og innsikt, del 2</h3>
+<p>Integrasjonene må tåle at leverandørene endrer API-ene sine uten varsel, slik Slack gjorde to ganger i fjor. Designet skal føles rolig selv når innboksen er full, og hver handling skal ha en hurtigtast. Det koster dem tid hver eneste dag, og det koster oss tillit når viktige beskjeder blir borte mellom Teams, Slack og e-post. Ingen data forlater maskinen uten at brukeren har bedt om det, og det skal være like sant om tolv måneder. Supporten skal være synlig i produktet, ikke gjemt bak et skjema på nettsiden. </p>
+<p>Konkurrentene våre bygger plattformer, mens vi bygger et verktøy for én person med mange kanaler. Vi har bevist at modellen fungerer for små team, men enterprise-kundene stiller andre krav til tilgangsstyring og revisjon. Testdataene våre skal dekke alt vi ser i virkeligheten, fra nyhetsbrev med nestede tabeller til lange tråder med sitater. Vi skal skrive ned beslutningene våre slik at nye folk forstår hvorfor ting er som de er. Målet for neste år er enkelt å formulere og vanskelig å levere: én innboks der mennesker kommer først og tjenester kommer sist. </p>
+<ul>
+<li>Det er en styrke så lenge vi holder fokus og sier nei til funksjoner som bare passer for store team.</li>
+<li>Hver integrasjon skal ha en mock-klient med realistiske data, slik at vi kan teste uten ekte kontoer.</li>
+<li>Ytelsen skal være like god med hundre tusen meldinger som med hundre, og det skal vi måle hver uke.</li>
+<li>Tilgjengelighet er ikke et tillegg, og hver skjerm skal fungere med tastatur og skjermleser fra dag én.</li>
+</ul>
+<h2>Økonomi</h2>
+<p>Lokal lagring er et salgsargument i seg selv, særlig hos kunder i offentlig sektor og finans. Prisingen bør være per sete med et gulv, slik Hugo anbefalte, og vi bør teste den på tre pilotkunder først. Tilgjengelighet er ikke et tillegg, og hver skjerm skal fungere med tastatur og skjermleser fra dag én. Vi skal måle suksess på hvor raskt brukerne svarer på mennesker, ikke på hvor mange meldinger de leser. Vi må ansette to utviklere til i første kvartal for å holde tempoet uten å brenne ut teamet. </p>
+<p>Designet skal føles rolig selv når innboksen er full, og hver handling skal ha en hurtigtast. Det koster dem tid hver eneste dag, og det koster oss tillit når viktige beskjeder blir borte mellom Teams, Slack og e-post. Ingen data forlater maskinen uten at brukeren har bedt om det, og det skal være like sant om tolv måneder. Supporten skal være synlig i produktet, ikke gjemt bak et skjema på nettsiden. Kundene våre bruker i snitt fire ulike verktøy for å holde oversikt over samtaler med de samme menneskene. </p>
+<h3>Økonomi, del 2</h3>
+<p>Vi har bevist at modellen fungerer for små team, men enterprise-kundene stiller andre krav til tilgangsstyring og revisjon. Testdataene våre skal dekke alt vi ser i virkeligheten, fra nyhetsbrev med nestede tabeller til lange tråder med sitater. Vi skal skrive ned beslutningene våre slik at nye folk forstår hvorfor ting er som de er. Målet for neste år er enkelt å formulere og vanskelig å levere: én innboks der mennesker kommer først og tjenester kommer sist. Integrasjonene må tåle at leverandørene endrer API-ene sine uten varsel, slik Slack gjorde to ganger i fjor. </p>
+<p>Når vi bruker en språkmodell, skal den kjøre lokalt eller gjennom verktøy brukeren allerede har valgt selv. Det er en styrke så lenge vi holder fokus og sier nei til funksjoner som bare passer for store team. Den største risikoen er ikke teknisk, men at vi prøver å løse alt samtidig og ender opp med et halvferdig produkt. Sorteringen skal kunne forklares med én setning, ellers stoler ikke brukerne på den. Konkurrentene våre bygger plattformer, mens vi bygger et verktøy for én person med mange kanaler. </p>
+<ol>
+<li>Hver fase avsluttes med en demo for styret og en skriftlig vurdering av hva som gikk bra og hva som ikke gjorde det.</li>
+<li>Vi skal måle suksess på hvor raskt brukerne svarer på mennesker, ikke på hvor mange meldinger de leser.</li>
+<li>Lokal lagring er et salgsargument i seg selv, særlig hos kunder i offentlig sektor og finans.</li>
+</ol>
+<table border="1" cellpadding="6" style="border-collapse:collapse"><tr><th>Kvartal</th><th>Mål</th><th>Ansvarlig</th><th>Budsjett (NOK)</th></tr>
+<tr><td>Q1</td><td>Mock-klienter og mail renderer</td><td>Sam</td><td>850 000</td></tr>
+<tr><td>Q2</td><td>Entra og Slack enterprise</td><td>Mike</td><td>1 200 000</td></tr>
+<tr><td>Q3</td><td>Saker, grupper og statistikk</td><td>Eva</td><td>950 000</td></tr>
+<tr><td>Q4</td><td>Pilotkunder og prising</td><td>Lea</td><td>600 000</td></tr></table>
+<h2>Risiko</h2>
+<p>Det koster dem tid hver eneste dag, og det koster oss tillit når viktige beskjeder blir borte mellom Teams, Slack og e-post. Ingen data forlater maskinen uten at brukeren har bedt om det, og det skal være like sant om tolv måneder. Supporten skal være synlig i produktet, ikke gjemt bak et skjema på nettsiden. Kundene våre bruker i snitt fire ulike verktøy for å holde oversikt over samtaler med de samme menneskene. Lokal lagring er et salgsargument i seg selv, særlig hos kunder i offentlig sektor og finans. </p>
+<p>Testdataene våre skal dekke alt vi ser i virkeligheten, fra nyhetsbrev med nestede tabeller til lange tråder med sitater. Vi skal skrive ned beslutningene våre slik at nye folk forstår hvorfor ting er som de er. Målet for neste år er enkelt å formulere og vanskelig å levere: én innboks der mennesker kommer først og tjenester kommer sist. Integrasjonene må tåle at leverandørene endrer API-ene sine uten varsel, slik Slack gjorde to ganger i fjor. Designet skal føles rolig selv når innboksen er full, og hver handling skal ha en hurtigtast. </p>
+<h3>Risiko, del 2</h3>
+<p>Det er en styrke så lenge vi holder fokus og sier nei til funksjoner som bare passer for store team. Den største risikoen er ikke teknisk, men at vi prøver å løse alt samtidig og ender opp med et halvferdig produkt. Sorteringen skal kunne forklares med én setning, ellers stoler ikke brukerne på den. Konkurrentene våre bygger plattformer, mens vi bygger et verktøy for én person med mange kanaler. Vi har bevist at modellen fungerer for små team, men enterprise-kundene stiller andre krav til tilgangsstyring og revisjon. </p>
+<p>Hver fase avsluttes med en demo for styret og en skriftlig vurdering av hva som gikk bra og hva som ikke gjorde det. Kalenderen er limet mellom kanalene, fordi nesten hver samtale ender med et møte eller en frist. Hver integrasjon skal ha en mock-klient med realistiske data, slik at vi kan teste uten ekte kontoer. Derfor foreslår jeg at vi deler året i tre faser med tydelige mål og en fast dato for hver av dem. Når vi bruker en språkmodell, skal den kjøre lokalt eller gjennom verktøy brukeren allerede har valgt selv. </p>
+<ul>
+<li>Hver fase avsluttes med en demo for styret og en skriftlig vurdering av hva som gikk bra og hva som ikke gjorde det.</li>
+<li>Vi skal måle suksess på hvor raskt brukerne svarer på mennesker, ikke på hvor mange meldinger de leser.</li>
+<li>Lokal lagring er et salgsargument i seg selv, særlig hos kunder i offentlig sektor og finans.</li>
+<li>Ingen data forlater maskinen uten at brukeren har bedt om det, og det skal være like sant om tolv måneder.</li>
+</ul>
+<h2>Organisasjon</h2>
+<p>Vi skal skrive ned beslutningene våre slik at nye folk forstår hvorfor ting er som de er. Målet for neste år er enkelt å formulere og vanskelig å levere: én innboks der mennesker kommer først og tjenester kommer sist. Integrasjonene må tåle at leverandørene endrer API-ene sine uten varsel, slik Slack gjorde to ganger i fjor. Designet skal føles rolig selv når innboksen er full, og hver handling skal ha en hurtigtast. Det koster dem tid hver eneste dag, og det koster oss tillit når viktige beskjeder blir borte mellom Teams, Slack og e-post. </p>
+<p>Den største risikoen er ikke teknisk, men at vi prøver å løse alt samtidig og ender opp med et halvferdig produkt. Sorteringen skal kunne forklares med én setning, ellers stoler ikke brukerne på den. Konkurrentene våre bygger plattformer, mens vi bygger et verktøy for én person med mange kanaler. Vi har bevist at modellen fungerer for små team, men enterprise-kundene stiller andre krav til tilgangsstyring og revisjon. Testdataene våre skal dekke alt vi ser i virkeligheten, fra nyhetsbrev med nestede tabeller til lange tråder med sitater. </p>
+<h3>Organisasjon, del 2</h3>
+<p>Kalenderen er limet mellom kanalene, fordi nesten hver samtale ender med et møte eller en frist. Hver integrasjon skal ha en mock-klient med realistiske data, slik at vi kan teste uten ekte kontoer. Derfor foreslår jeg at vi deler året i tre faser med tydelige mål og en fast dato for hver av dem. Når vi bruker en språkmodell, skal den kjøre lokalt eller gjennom verktøy brukeren allerede har valgt selv. Det er en styrke så lenge vi holder fokus og sier nei til funksjoner som bare passer for store team. </p>
+<p>Tilgjengelighet er ikke et tillegg, og hver skjerm skal fungere med tastatur og skjermleser fra dag én. Vi skal måle suksess på hvor raskt brukerne svarer på mennesker, ikke på hvor mange meldinger de leser. Vi må ansette to utviklere til i første kvartal for å holde tempoet uten å brenne ut teamet. Ytelsen skal være like god med hundre tusen meldinger som med hundre, og det skal vi måle hver uke. Hver fase avsluttes med en demo for styret og en skriftlig vurdering av hva som gikk bra og hva som ikke gjorde det. </p>
+<ol>
+<li>Vi har bevist at modellen fungerer for små team, men enterprise-kundene stiller andre krav til tilgangsstyring og revisjon.</li>
+<li>Den største risikoen er ikke teknisk, men at vi prøver å løse alt samtidig og ender opp med et halvferdig produkt.</li>
+<li>Derfor foreslår jeg at vi deler året i tre faser med tydelige mål og en fast dato for hver av dem.</li>
+</ol>
+<table border="1" cellpadding="6" style="border-collapse:collapse"><tr><th>Kvartal</th><th>Mål</th><th>Ansvarlig</th><th>Budsjett (NOK)</th></tr>
+<tr><td>Q1</td><td>Mock-klienter og mail renderer</td><td>Sam</td><td>850 000</td></tr>
+<tr><td>Q2</td><td>Entra og Slack enterprise</td><td>Mike</td><td>1 200 000</td></tr>
+<tr><td>Q3</td><td>Saker, grupper og statistikk</td><td>Eva</td><td>950 000</td></tr>
+<tr><td>Q4</td><td>Pilotkunder og prising</td><td>Lea</td><td>600 000</td></tr></table>
+<h2>Neste steg</h2>
+<p>Sorteringen skal kunne forklares med én setning, ellers stoler ikke brukerne på den. Konkurrentene våre bygger plattformer, mens vi bygger et verktøy for én person med mange kanaler. Vi har bevist at modellen fungerer for små team, men enterprise-kundene stiller andre krav til tilgangsstyring og revisjon. Testdataene våre skal dekke alt vi ser i virkeligheten, fra nyhetsbrev med nestede tabeller til lange tråder med sitater. Vi skal skrive ned beslutningene våre slik at nye folk forstår hvorfor ting er som de er. </p>
+<p>Hver integrasjon skal ha en mock-klient med realistiske data, slik at vi kan teste uten ekte kontoer. Derfor foreslår jeg at vi deler året i tre faser med tydelige mål og en fast dato for hver av dem. Når vi bruker en språkmodell, skal den kjøre lokalt eller gjennom verktøy brukeren allerede har valgt selv. Det er en styrke så lenge vi holder fokus og sier nei til funksjoner som bare passer for store team. Den største risikoen er ikke teknisk, men at vi prøver å løse alt samtidig og ender opp med et halvferdig produkt. </p>
+<h3>Neste steg, del 2</h3>
+<p>Vi skal måle suksess på hvor raskt brukerne svarer på mennesker, ikke på hvor mange meldinger de leser. Vi må ansette to utviklere til i første kvartal for å holde tempoet uten å brenne ut teamet. Ytelsen skal være like god med hundre tusen meldinger som med hundre, og det skal vi måle hver uke. Hver fase avsluttes med en demo for styret og en skriftlig vurdering av hva som gikk bra og hva som ikke gjorde det. Kalenderen er limet mellom kanalene, fordi nesten hver samtale ender med et møte eller en frist. </p>
+<p>Supporten skal være synlig i produktet, ikke gjemt bak et skjema på nettsiden. Kundene våre bruker i snitt fire ulike verktøy for å holde oversikt over samtaler med de samme menneskene. Lokal lagring er et salgsargument i seg selv, særlig hos kunder i offentlig sektor og finans. Prisingen bør være per sete med et gulv, slik Hugo anbefalte, og vi bør teste den på tre pilotkunder først. Tilgjengelighet er ikke et tillegg, og hver skjerm skal fungere med tastatur og skjermleser fra dag én. </p>
+<ul>
+<li>Prisingen bør være per sete med et gulv, slik Hugo anbefalte, og vi bør teste den på tre pilotkunder først.</li>
+<li>Supporten skal være synlig i produktet, ikke gjemt bak et skjema på nettsiden.</li>
+<li>Designet skal føles rolig selv når innboksen er full, og hver handling skal ha en hurtigtast.</li>
+<li>Vi skal skrive ned beslutningene våre slik at nye folk forstår hvorfor ting er som de er.</li>
+</ul>
+<p>Mvh<br>Oscar</p>
+</body></html>

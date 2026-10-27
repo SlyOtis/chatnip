@@ -1,0 +1,108 @@
+<svg width="32" height="32" viewBox="0 0 256 256" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#22c55e;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#16a34a;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="stemGradient" x1="0%" y1="100%" x2="0%" y2="0%">
+      <stop offset="0%" style="stop-color:#166534;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#16a34a;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background circle -->
+  <circle cx="128" cy="128" r="112" fill="url(#bgGradient)"/>
+  
+  <!-- Plant base -->
+  <ellipse cx="128" cy="180" rx="20" ry="6" fill="#166534" opacity="0.7"/>
+  
+  <!-- More organic skewed zigzag stem with varied lengths -->
+  <path d="M128 180 L128 165 L108 162 L112 142 L135 148 L132 125 L115 122 L120 105" 
+        stroke="url(#stemGradient)" 
+        stroke-width="10" 
+        fill="none" 
+        stroke-linecap="square" 
+        stroke-linejoin="miter"/>
+  
+  <!-- Branch 1: Short branch from left side -->
+  <path d="M108 162 L98 159 L90 157" 
+        stroke="url(#stemGradient)" 
+        stroke-width="5" 
+        fill="none" 
+        stroke-linecap="square"/>
+  
+  <!-- Branch 2: Longer branch from right side -->
+  <path d="M135 148 L148 145 L158 142 L165 140" 
+        stroke="url(#stemGradient)" 
+        stroke-width="6" 
+        fill="none" 
+        stroke-linecap="square"/>
+  
+  <!-- Branch 3: Medium branch from left side -->
+  <path d="M115 122 L105 119 L96 117" 
+        stroke="url(#stemGradient)" 
+        stroke-width="5.5" 
+        fill="none" 
+        stroke-linecap="square"/>
+  
+  <!-- Branch 4: Long connection for hexagonal bubble -->
+  <path d="M120 105 L108 102 L98 100 L90 98" 
+        stroke="url(#stemGradient)" 
+        stroke-width="5" 
+        fill="none" 
+        stroke-linecap="square"/>
+  
+  <!-- Branch 5: Top connection for circular bubble -->
+  <path d="M120 105 L120 95 L120 85" 
+        stroke="url(#stemGradient)" 
+        stroke-width="5" 
+        fill="none" 
+        stroke-linecap="square"/>
+  
+  <!-- Chat Bubble 1: Larger quirky rounded with tail (Branch 1) -->
+  <path d="M72 150 Q60 144 54 156 L54 169 Q54 176 62 176 L86 176 L90 182 L90 176 L88 176 Q96 176 96 169 L96 156 Q96 144 86 144 L72 150 Z" 
+        fill="rgba(255,255,255,0.98)" 
+        stroke="rgba(22, 101, 52, 0.6)" 
+        stroke-width="2.5"/>
+  <circle cx="66" cy="162" r="3.5" fill="#16a34a"/>
+  <circle cx="75" cy="162" r="3.5" fill="#16a34a"/>
+  <circle cx="84" cy="162" r="3.5" fill="#16a34a"/>
+  
+  <!-- Chat Bubble 2: Larger tilted square bubble (Branch 2) -->
+  <rect x="148" y="125" width="36" height="28" rx="7" ry="7" 
+        fill="rgba(255,255,255,0.98)" 
+        stroke="rgba(22, 101, 52, 0.6)" 
+        stroke-width="2.5"
+        transform="rotate(10 166 139)"/>
+  <circle cx="156" cy="139" r="3.5" fill="#16a34a"/>
+  <circle cx="166" cy="139" r="3.5" fill="#16a34a"/>
+  <circle cx="176" cy="139" r="3.5" fill="#16a34a"/>
+  
+  <!-- Chat Bubble 3: Larger wonky oval bubble (Branch 3) -->
+  <ellipse cx="82" cy="108" rx="28" ry="20" 
+           fill="rgba(255,255,255,0.98)" 
+           stroke="rgba(22, 101, 52, 0.6)" 
+           stroke-width="2.5"
+           transform="rotate(-18 82 108)"/>
+  <circle cx="72" cy="108" r="3.5" fill="#16a34a"/>
+  <circle cx="82" cy="108" r="3.5" fill="#16a34a"/>
+  <circle cx="92" cy="108" r="3.5" fill="#16a34a"/>
+  
+  <!-- Chat Bubble 4: Larger lopsided hexagonal bubble connected to stem -->
+  <path d="M75 95 L92 88 L105 95 L103 112 L92 119 L73 112 Z" 
+        fill="rgba(255,255,255,0.98)" 
+        stroke="rgba(22, 101, 52, 0.6)" 
+        stroke-width="2.5"/>
+  <circle cx="84" cy="103" r="3.5" fill="#16a34a"/>
+  <circle cx="92" cy="103" r="3.5" fill="#16a34a"/>
+  <circle cx="100" cy="103" r="3.5" fill="#16a34a"/>
+  
+  <!-- Chat Bubble 5: Larger circular bubble connected to stem -->
+  <ellipse cx="120" cy="75" rx="30" ry="32" 
+          fill="rgba(255,255,255,0.98)" 
+          stroke="rgba(22, 101, 52, 0.6)" 
+          stroke-width="3"/>
+  <circle cx="106" cy="75" r="4" fill="#16a34a"/>
+  <circle cx="120" cy="75" r="4" fill="#16a34a"/>
+  <circle cx="134" cy="75" r="4" fill="#16a34a"/>
+</svg>

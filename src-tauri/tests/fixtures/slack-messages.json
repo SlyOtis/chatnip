@@ -1,0 +1,277 @@
+{
+  "ok": true,
+  "messages": [
+    {
+      "type": "message",
+      "user": "U0MILO",
+      "ts": "1728470000.000100",
+      "thread_ts": "1728470000.000100",
+      "reply_count": 1,
+      "text": "<@U0SAM|Sam> can you look at <https://github.com/SlyOtis/chatnip/pull/42|Fix sync loop> in <#C0DEV|dev> :rocket:",
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "a1",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "user",
+                  "user_id": "U0SAM"
+                },
+                {
+                  "type": "text",
+                  "text": " can you look at "
+                },
+                {
+                  "type": "link",
+                  "url": "https://github.com/SlyOtis/chatnip/pull/42",
+                  "text": "Fix sync loop"
+                },
+                {
+                  "type": "text",
+                  "text": " in "
+                },
+                {
+                  "type": "channel",
+                  "channel_id": "C0DEV"
+                },
+                {
+                  "type": "text",
+                  "text": " "
+                },
+                {
+                  "type": "emoji",
+                  "name": "rocket",
+                  "unicode": "1f680"
+                }
+              ]
+            },
+            {
+              "type": "rich_text_list",
+              "style": "bullet",
+              "indent": 0,
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "double refresh",
+                      "style": {
+                        "bold": true
+                      }
+                    },
+                    {
+                      "type": "text",
+                      "text": " on first sync"
+                    }
+                  ]
+                },
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "since",
+                      "style": {
+                        "code": true
+                      }
+                    },
+                    {
+                      "type": "text",
+                      "text": " is ignored"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "rich_text_list",
+              "style": "ordered",
+              "indent": 0,
+              "elements": [
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "write the test"
+                    }
+                  ]
+                },
+                {
+                  "type": "rich_text_section",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "merge "
+                    },
+                    {
+                      "type": "user",
+                      "user_id": "U0MIKE"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "rich_text_preformatted",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "cargo test --bin chatnip"
+                }
+              ]
+            },
+            {
+              "type": "rich_text_quote",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "works on my machine "
+                },
+                {
+                  "type": "emoji",
+                  "name": "shrug",
+                  "unicode": "1f937"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "reactions": [
+        {
+          "name": "eyes",
+          "users": [
+            "U0MIKE",
+            "U0NORA"
+          ],
+          "count": 2
+        },
+        {
+          "name": "party-parrot",
+          "users": [
+            "U0NORA"
+          ],
+          "count": 1
+        },
+        {
+          "name": "+1::skin-tone-3",
+          "users": [
+            "U0SAM"
+          ],
+          "count": 1
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "user": "U0SAM",
+      "ts": "1728470300.000200",
+      "thread_ts": "1728470000.000100",
+      "parent_user_id": "U0MILO",
+      "text": "On it :+1:"
+    },
+    {
+      "type": "message",
+      "subtype": "file_share",
+      "user": "U0SAM",
+      "ts": "1728470600.000300",
+      "text": "Here is the log",
+      "files": [
+        {
+          "id": "F0LOG",
+          "name": "sync.log",
+          "title": "sync.log",
+          "mimetype": "text/plain",
+          "filetype": "text",
+          "size": 48211,
+          "url_private": "https://files.slack.com/files-pri/T0/F0LOG/sync.log"
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "subtype": "bot_message",
+      "bot_id": "B0DEPLOY",
+      "username": "deploybot",
+      "ts": "1728470900.000400",
+      "text": "Deploy finished",
+      "blocks": [
+        {
+          "type": "header",
+          "text": {
+            "type": "plain_text",
+            "text": "Deploy finished"
+          }
+        },
+        {
+          "type": "section",
+          "text": {
+            "type": "mrkdwn",
+            "text": "*api* is live on staging"
+          },
+          "fields": [
+            {
+              "type": "mrkdwn",
+              "text": "*Version:* 0.4.1"
+            },
+            {
+              "type": "mrkdwn",
+              "text": "*Took:* 3m 12s"
+            }
+          ]
+        },
+        {
+          "type": "context",
+          "elements": [
+            {
+              "type": "mrkdwn",
+              "text": "Triggered by <@U0MILO>"
+            }
+          ]
+        },
+        {
+          "type": "actions",
+          "elements": [
+            {
+              "type": "button",
+              "text": {
+                "type": "plain_text",
+                "text": "Open"
+              },
+              "url": "https://deploy.northwind.example/123"
+            },
+            {
+              "type": "button",
+              "text": {
+                "type": "plain_text",
+                "text": "Roll back"
+              },
+              "value": "rollback"
+            }
+          ]
+        }
+      ],
+      "attachments": [
+        {
+          "fallback": "Coverage report",
+          "color": "#36a64f",
+          "title": "Coverage report",
+          "title_link": "https://ci.northwind.example/coverage/123",
+          "text": "Coverage went up",
+          "fields": [
+            {
+              "title": "Lines",
+              "value": "82%",
+              "short": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

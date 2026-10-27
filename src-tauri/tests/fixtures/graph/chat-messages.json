@@ -1,0 +1,20 @@
+{
+  "value": [
+    {
+      "id": "1700",
+      "messageType": "message",
+      "createdDateTime": "2026-10-15T07:59:00.000Z",
+      "lastModifiedDateTime": "2026-10-15T08:00:00.000Z",
+      "deletedDateTime": null,
+      "webUrl": null,
+      "from": { "user": { "id": "u-nora", "displayName": "Nora Gale", "userIdentityType": "aadUser" } },
+      "body": { "contentType": "html", "content": "<p>Klar <emoji id=\"like\" alt=\"👍\" title=\"Like\"></emoji></p><div><img src=\"https://graph.microsoft.com/v1.0/chats/19:abc@thread.v2/messages/1700/hostedContents/aWQ9MQ/$value\" alt=\"image\"></div>" },
+      "attachments": [],
+      "mentions": [],
+      "reactions": [
+        { "reactionType": "like", "createdDateTime": "2026-10-15T08:00:00.000Z", "user": { "user": { "id": "u-me" } } },
+        { "reactionType": "🚀", "createdDateTime": "2026-10-15T08:00:10.000Z", "user": { "user": { "id": "u-nora" } } }
+      ]
+    }
+  ]
+}

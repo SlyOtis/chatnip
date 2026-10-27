@@ -1,0 +1,8 @@
+{
+  "ok": true,
+  "members": [
+    { "id": "U0ANNA", "name": "anna", "deleted": false, "profile": { "real_name": "Anna Berg", "display_name": "", "email": "anna.berg@client.example", "title": "Innkjøp", "image_72": "https://avatars.slack-edge.com/anna_72.png", "image_192": "https://avatars.slack-edge.com/anna_192.png" } },
+    { "id": "U0GONE", "name": "gone", "deleted": true, "profile": { "real_name": "Old" } }
+  ],
+  "response_metadata": { "next_cursor": "page-2" }
+}

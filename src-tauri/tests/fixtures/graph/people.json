@@ -1,0 +1,29 @@
+{
+  "value": [
+    {
+      "id": "u-anna",
+      "displayName": "Anna Berg",
+      "givenName": "Anna",
+      "surname": "Berg",
+      "jobTitle": "Innkjøp",
+      "companyName": "Kunde AS",
+      "department": "",
+      "officeLocation": null,
+      "userPrincipalName": "anna.berg@client.example",
+      "scoredEmailAddresses": [{ "address": "Anna.Berg@client.example", "relevanceScore": 8 }],
+      "personType": { "class": "Person", "subclass": "OrganizationUser" }
+    },
+    {
+      "id": "c-1",
+      "displayName": "Ola Kontakt",
+      "scoredEmailAddresses": [{ "address": "ola@mail.example" }],
+      "personType": { "class": "Person", "subclass": "PersonalContact" }
+    },
+    {
+      "id": "g-1",
+      "displayName": "Ingen adresse",
+      "scoredEmailAddresses": [],
+      "personType": { "class": "Group", "subclass": "UnifiedGroup" }
+    }
+  ]
+}

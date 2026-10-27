@@ -1,0 +1,8 @@
+{
+  "ok": true,
+  "channels": [
+    { "id": "C0DEV", "name": "dev", "is_channel": true, "is_member": true, "is_im": false, "is_mpim": false, "updated": 1760515200000, "topic": { "value": "Releases :rocket:" } },
+    { "id": "C0LURK", "name": "random", "is_channel": true, "is_member": false, "is_im": false, "is_mpim": false, "updated": 1760515200000 }
+  ],
+  "response_metadata": { "next_cursor": "dXNlcjpVMEc5V0ZYTlo=" }
+}

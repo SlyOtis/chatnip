@@ -1,0 +1,26 @@
+{
+  "name": "spaces/AAA/messages/M1",
+  "sender": { "name": "users/100", "displayName": "Milo Oakes", "type": "HUMAN" },
+  "createTime": "2026-10-08T07:15:00.000000Z",
+  "text": "@Mia Sund /standup notes are in, see https://docs.google.com/document/d/abc 🙏",
+  "annotations": [
+    { "type": "USER_MENTION", "startIndex": 0, "length": 9, "userMention": { "user": { "name": "users/110", "displayName": "Mia Sund", "type": "HUMAN" }, "type": "MENTION" } },
+    { "type": "SLASH_COMMAND", "startIndex": 10, "length": 8, "slashCommand": { "bot": { "name": "users/900", "type": "BOT" }, "type": "INVOKE", "commandName": "/standup", "commandId": "1" } }
+  ],
+  "cardsV2": [
+    { "cardId": "standup", "card": {
+      "header": { "title": "Standup 09:15", "subtitle": "Team Northwind" },
+      "sections": [ { "widgets": [
+        { "textParagraph": { "text": "<b>3 updates</b>, 1 blocker" } },
+        { "decoratedText": { "topLabel": "Blocker", "text": "Blocker: staging DNS" } },
+        { "buttonList": { "buttons": [ { "text": "Open notes", "onClick": { "openLink": { "url": "https://docs.google.com/document/d/abc" } } } ] } }
+      ] } ]
+    } }
+  ],
+  "attachment": [
+    { "name": "spaces/AAA/messages/M1/attachments/A1", "contentName": "notes.pdf", "contentType": "application/pdf", "downloadUri": "https://chat.google.com/api/get_attachment_url?id=A1", "source": "UPLOADED_CONTENT" }
+  ],
+  "emojiReactionSummaries": [ { "emoji": { "unicode": "🙏" }, "reactionCount": 2 } ],
+  "thread": { "name": "spaces/AAA/threads/T1" },
+  "space": { "name": "spaces/AAA", "type": "SPACE", "displayName": "Northwind" }
+}

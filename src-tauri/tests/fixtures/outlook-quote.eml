@@ -1,0 +1,26 @@
+Received: from AM0PR01MB1234.eurprd01.prod.exchangelabs.com (2603:10a6:208:12::21)
+ by DB8PR01MB5678.eurprd01.prod.exchangelabs.com with HTTPS; Wed, 7 Oct 2026
+ 08:15:33 +0000
+Received: from mail-vi1eur05on2075.outbound.protection.outlook.com (40.107.21.75)
+ by mx.chatnip.local; Wed, 7 Oct 2026 10:15:30 +0200
+X-Originating-IP: [85.166.12.9]
+From: Kari Nordmann <kari.nordmann@tidewater.example>
+To: Milo Oakes <milo@northwind.example>
+Subject: RE: Access to the Tidewater platform
+Date: Wed, 7 Oct 2026 10:15:28 +0200
+Message-ID: <AM0PR01MB1234ABCDEF@AM0PR01MB1234.eurprd01.prod.exchangelabs.com>
+MIME-Version: 1.0
+Content-Type: text/html; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+<html><head><meta http-equiv=3D"Content-Type" content=3D"text/html; charse=
+t=3Dutf-8"><style>p.MsoNormal{margin:0cm;font-size:11pt}</style></head><bo=
+dy><div class=3D"WordSection1"><p class=3D"MsoNormal">Hi, your access reque=
+st is approved. The kubeconfig is attached.</p><p class=3D"MsoNormal">Kari<=
+/p><div><p class=3D"MsoNormal">Kari Nordmann | Platform lead | Tidewater</p></di=
+v></div><div id=3D"divRplyFwdMsg" dir=3D"ltr"><font face=3D"Calibri, sans-s=
+erif"><b>From:</b> Milo Oakes &lt;milo@northwind.example&gt;<br><b>Sent:<=
+/b> Tuesday, October 6, 2026 16:02<br><b>To:</b> Kari Nordmann<br><b>Subjec=
+t:</b> Access to the Tidewater platform</font><div>&nbsp;</div></div><div><p cla=
+ss=3D"MsoNormal">Hi Kari, could I get access to the staging cluster?</p></d=
+iv></body></html>

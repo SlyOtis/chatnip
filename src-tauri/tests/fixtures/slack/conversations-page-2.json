@@ -1,0 +1,7 @@
+{
+  "ok": true,
+  "channels": [
+    { "id": "D0ANNA", "is_im": true, "user": "U0ANNA", "is_user_deleted": false }
+  ],
+  "response_metadata": { "next_cursor": "" }
+}

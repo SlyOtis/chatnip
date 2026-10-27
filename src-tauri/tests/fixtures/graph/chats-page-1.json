@@ -1,0 +1,16 @@
+{
+  "@odata.nextLink": "{{base}}/chats?$top=50&$expand=members&$skiptoken=page2",
+  "value": [
+    {
+      "id": "19:abc@thread.v2",
+      "topic": null,
+      "chatType": "group",
+      "lastUpdatedDateTime": "2026-10-15T08:00:00.000Z",
+      "webUrl": "https://teams.microsoft.com/l/chat/19%3Aabc%40thread.v2/0?tenantId=t1",
+      "members": [
+        { "@odata.type": "#microsoft.graph.aadUserConversationMember", "id": "m-1", "displayName": "Milo Oakes", "userId": "u-me", "email": "milo@northwind.example" },
+        { "@odata.type": "#microsoft.graph.aadUserConversationMember", "id": "m-2", "displayName": "Nora Gale", "userId": "u-nora", "email": null, "userIdentity": { "signInName": "nora@northwind.example" } }
+      ]
+    }
+  ]
+}

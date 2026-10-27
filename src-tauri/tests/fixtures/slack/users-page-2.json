@@ -1,0 +1,7 @@
+{
+  "ok": true,
+  "members": [
+    { "id": "U0BOT", "name": "ci", "is_bot": true, "deleted": false, "profile": { "real_name": "CI", "display_name": "ci-bot", "image_72": "https://avatars.slack-edge.com/ci_72.png" } }
+  ],
+  "response_metadata": { "next_cursor": "" }
+}

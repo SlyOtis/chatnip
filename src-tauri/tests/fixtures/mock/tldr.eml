@@ -1,0 +1,62 @@
+Received: from mail-sor-f69.google.com (mail-sor-f69.google.com [209.85.220.69]) by mx.chatnip.local with ESMTPS; Thu, 8 Oct 2026 12:04:11 +0000
+From: TLDR <dan@tldrnewsletter.com>
+To: milo@northwind.example
+Subject: Tauri 2.6 ships multiwebview 📦, SQLite gets JSONB indexes, Rust trait upcasting
+Date: Thu, 8 Oct 2026 12:04:10 +0000
+Message-ID: <tldr-2026-10-08@tldrnewsletter.com>
+List-Unsubscribe: <https://tldr.tech/unsubscribe?ep=1&lc=f2b1&email=milo%40northwind.example>, <mailto:unsubscribe@tldrnewsletter.com?subject=unsubscribe>
+List-Unsubscribe-Post: List-Unsubscribe=One-Click
+Precedence: bulk
+MIME-Version: 1.0
+Content-Type: multipart/alternative; boundary="tldr-alt"
+
+--tldr-alt
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: 8bit
+
+TLDR 2026-10-08
+
+Big Tech & Startups
+Tauri 2.6 ships multiwebview (4 minute read)
+https://tauri.app/blog/tauri-2-6/
+
+--tldr-alt
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: 8bit
+
+<!DOCTYPE html>
+<html><head><meta charset="utf-8"><meta name="viewport" content="width=device-width">
+<style>a{color:#0f62fe}.section-title{font-size:20px;font-weight:700;margin:28px 0 12px}.item{margin:0 0 18px}.item a.title{font-weight:700;color:#111;text-decoration:none}.muted{color:#6b6b6b}</style>
+</head>
+<body style="margin:0;padding:0;background:#ffffff;font-family:-apple-system,Helvetica,Arial,sans-serif;color:#111111">
+<div style="display:none;max-height:0;overflow:hidden;mso-hide:all">Tauri 2.6, SQLite JSONB indexes, trait upcasting in stable Rust and more ‌ ‌ ‌ ‌</div>
+<table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" bgcolor="#ffffff">
+<tr><td align="center">
+<table role="presentation" width="600" cellpadding="0" cellspacing="0" border="0" style="max-width:600px">
+<tr><td style="padding:24px 16px 8px">
+<div style="text-align:center"><a href="https://tldr.tech/?utm_source=tldr"><img src="https://placehold.co/200x100/ffffff/1d1a17/png?text=TLDR" width="120" alt="TLDR" style="display:inline-block"></a></div>
+<p class="muted" style="text-align:center;font-size:13px">TLDR 2026-10-08 · <a href="https://tldr.tech/newsletter/2026-10-08">View online</a></p>
+<div class="section-title">🚀 Big Tech &amp; Startups</div>
+<div class="item"><a class="title" href="https://tauri.app/blog/tauri-2-6/?utm_source=tldrnewsletter">Tauri 2.6 ships multiwebview and a new IPC transport (4 minute read)</a>
+<p>Tauri 2.6 stabilises multiple webviews per window, replaces the JSON IPC with a binary channel for large payloads and adds tracing spans for every command. Startup time on macOS drops by a third in the benchmarks.</p></div>
+<div class="item"><a class="title" href="https://sqlite.org/releaselog/3_51_0.html?utm_source=tldrnewsletter">SQLite 3.51 adds expression indexes on JSONB (3 minute read)</a>
+<p>JSONB columns can now carry expression indexes directly, which makes json_extract lookups as fast as a plain column. The release also tightens the query planner for partial indexes.</p></div>
+<div class="section-title">🧠 Science &amp; Futuristic Technology</div>
+<div class="item"><a class="title" href="https://example-research.org/papers/thermal-batteries?utm_source=tldrnewsletter">Sand batteries heat a whole Finnish town (6 minute read)</a>
+<p>A 100 MWh sand battery now covers district heating for Pornainen through the winter, charged by surplus wind power.</p></div>
+<div class="section-title">💻 Programming, Design &amp; Data Science</div>
+<div class="item"><a class="title" href="https://blog.rust-lang.org/2026/10/02/trait-upcasting.html?utm_source=tldrnewsletter">Trait upcasting lands in stable Rust (5 minute read)</a>
+<p>A <code style="background:#f2f2f2;padding:1px 4px;border-radius:3px">&amp;dyn Sub</code> can now coerce to <code style="background:#f2f2f2;padding:1px 4px;border-radius:3px">&amp;dyn Super</code> without a helper method.</p></div>
+<div class="item"><a class="title" href="https://svelte.dev/blog/runes-one-year?utm_source=tldrnewsletter">One year of runes (GitHub Repo)</a>
+<p>The Svelte team looks back on a year of runes in production and what changed in the compiler output.</p></div>
+<div class="section-title">🎁 Miscellaneous</div>
+<div class="item"><a class="title" href="https://www.superhuman.com/blog/split-inbox?utm_source=tldrnewsletter">How split inboxes changed triage (Sponsor)</a></div>
+<table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="margin-top:32px;border-top:1px solid #e5e5e5"><tr><td style="padding:16px 0;font-size:12px;color:#6b6b6b;text-align:center">
+Want to advertise in TLDR? <a href="https://advertise.tldr.tech/">Learn more</a><br>
+If you don't want to receive future editions, <a href="https://tldr.tech/unsubscribe?ep=1&amp;lc=f2b1">unsubscribe here</a>.
+</td></tr></table>
+</td></tr></table>
+</td></tr></table>
+<img src="https://tracking.tldrnewsletter.com/open/8f2b1c.gif" width="1" height="1" alt="" style="display:block;border:0">
+</body></html>
+--tldr-alt--

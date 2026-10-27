@@ -1,0 +1,7 @@
+{
+  "ok": true,
+  "items": [
+    { "type": "message", "channel": "C0DEV", "message": { "ts": "1728470000.000100", "text": "Release notes" } },
+    { "type": "file", "file": { "id": "F0LOG" } }
+  ]
+}

@@ -1,0 +1,34 @@
+Received: from mail-a.linear.app (mail-a.linear.app [167.89.12.90]) by mx.chatnip.local with ESMTPS; Thu, 8 Oct 2026 13:55:20 +0000
+From: Linear <notifications@linear.app>
+To: milo@northwind.example
+Subject: [NW-142] Mail renderer leaks remote images in dark mode
+Date: Thu, 8 Oct 2026 13:55:19 +0000
+Message-ID: <issue-NW-142-update-7@linear.app>
+List-Unsubscribe: <https://linear.app/northwind/settings/account/notifications>
+MIME-Version: 1.0
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: 8bit
+
+<html><body style="margin:0;background:#ffffff;font-family:-apple-system,'Segoe UI',Helvetica,sans-serif;color:#282a30">
+<table width="100%" cellpadding="0" cellspacing="0"><tr><td align="center" style="padding:24px 16px">
+<table width="560" cellpadding="0" cellspacing="0" style="max-width:560px">
+<tr><td style="font-size:13px;color:#6b6f76;padding-bottom:12px"><img src="https://placehold.co/96x96/5e6ad2/ffffff/png?text=L" width="16" height="16" alt="" style="vertical-align:middle"> Northwind · <a href="https://linear.app/northwind/team/NW" style="color:#6b6f76">Chatnip</a></td></tr>
+<tr><td style="font-size:18px;font-weight:600;padding-bottom:8px"><a href="https://linear.app/northwind/issue/NW-142" style="color:#282a30;text-decoration:none">NW-142 Mail renderer leaks remote images in dark mode</a></td></tr>
+<tr><td style="padding:12px 0;border-top:1px solid #eff0f1;border-bottom:1px solid #eff0f1">
+<table cellpadding="0" cellspacing="0" style="font-size:13px">
+<tr><td style="color:#6b6f76;padding:3px 16px 3px 0">Status</td><td><span style="color:#5e6ad2">●</span> Backlog → <span style="color:#f2c94c">●</span> <b>In Progress</b></td></tr>
+<tr><td style="color:#6b6f76;padding:3px 16px 3px 0">Assignee</td><td>Milo Oakes</td></tr>
+<tr><td style="color:#6b6f76;padding:3px 16px 3px 0">Priority</td><td>⚠ Urgent</td></tr>
+<tr><td style="color:#6b6f76;padding:3px 16px 3px 0">Labels</td><td><span style="border:1px solid #e0e1e4;border-radius:999px;padding:1px 8px">bug</span> <span style="border:1px solid #e0e1e4;border-radius:999px;padding:1px 8px">privacy</span></td></tr>
+<tr><td style="color:#6b6f76;padding:3px 16px 3px 0">Cycle</td><td>Cycle 31 (Oct 5 – Oct 18)</td></tr>
+</table>
+</td></tr>
+<tr><td style="padding:16px 0 4px;font-size:14px;line-height:22px">
+<p style="margin:0 0 4px"><b>Lea Lindqvist</b> <span style="color:#6b6f76">commented</span></p>
+<p style="margin:0">Repro: open the Nordhus newsletter in night theme. The tracking pixel loads before the user presses <i>Load images</i>. Acceptance:</p>
+<ul style="margin:8px 0;padding-left:20px"><li>No request leaves the app until images are allowed</li><li>Allowed senders persist per address</li><li>Mail with its own background sits on a light inset</li></ul>
+</td></tr>
+<tr><td style="padding:16px 0"><a href="https://linear.app/northwind/issue/NW-142#comment-7" style="display:inline-block;background:#5e6ad2;color:#ffffff;border-radius:6px;padding:8px 14px;font-size:13px;text-decoration:none">Reply in Linear</a></td></tr>
+<tr><td style="font-size:12px;color:#8a8f98;padding-top:8px;border-top:1px solid #eff0f1">You are subscribed to this issue. <a href="https://linear.app/northwind/settings/account/notifications" style="color:#8a8f98">Unsubscribe from notifications</a></td></tr>
+</table></td></tr></table>
+</body></html>

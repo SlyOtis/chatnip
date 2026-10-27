@@ -1,0 +1,9 @@
+{
+  "ok": true,
+  "messages": [
+    { "type": "message", "ts": "1760515200.000100", "user": "U0ANNA", "text": "Ny release :tada:", "thread_ts": "1760515200.000100" },
+    { "type": "message", "ts": "1760515210.000100", "user": "U0ANNA", "text": "Første svar", "thread_ts": "1760515200.000100" }
+  ],
+  "has_more": true,
+  "response_metadata": { "next_cursor": "replies-2" }
+}

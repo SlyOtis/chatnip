@@ -1,0 +1,26 @@
+Return-Path: <eva.ortega@northwind.example>
+Received: from mail-out.northwind.example (mail-out.northwind.example [185.35.187.100])
+	by mx.chatnip.local with ESMTPS id 1A2B3C
+	for <milo@northwind.example>; Mon, 5 Oct 2026 09:12:04 +0200
+Received: from [192.168.1.44] (unknown [192.168.1.44])
+	by mail-out.northwind.example with ESMTPSA; Mon, 5 Oct 2026 09:12:01 +0200
+From: Eva Ortega <eva.ortega@northwind.example>
+To: Milo Oakes <milo@northwind.example>
+Subject: Kjapp prat om designet
+Date: Mon, 5 Oct 2026 09:12:00 +0200
+Message-ID: <plain-1@northwind.example>
+MIME-Version: 1.0
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: 8bit
+
+Hei Milo,
+
+Har du tid til en kjapp prat om designet i morgen kl 11:00?
+Jeg har tre skisser å vise. Se https://northwind.example/skisser/3 først.
+
+Mvh
+Eva
+--
+Eva Ortega
+Designer, Northwind
++47 900 00 000

@@ -1,0 +1,7 @@
+{
+  "@odata.deltaLink": "{{base}}/me/mailFolders/inbox/messages/delta?$deltatoken=dt-inbox",
+  "value": [
+    { "id": "AAMk-2", "isRead": false, "conversationId": "conv-1" },
+    { "id": "AAMk-3", "@removed": { "reason": "deleted" } }
+  ]
+}

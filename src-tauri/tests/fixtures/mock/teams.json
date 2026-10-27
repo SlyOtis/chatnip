@@ -1,0 +1,67 @@
+{
+  "table": {
+    "id": "1728560000001",
+    "messageType": "message",
+    "createdDateTime": "2026-10-09T09:00:00Z",
+    "from": { "user": { "id": "u-lea", "displayName": "Lea Lindqvist" } },
+    "body": { "contentType": "html", "content": "<p>Status for leveransene denne uka:</p><table itemprop=\"copy-paste-table\"><tbody><tr><th>Leveranse</th><th>Eier</th><th>Status</th></tr><tr><td>Mail renderer</td><td>Sam</td><td>✅ Ferdig</td></tr><tr><td>Mock-klienter</td><td>Eva</td><td>🟡 Review</td></tr><tr><td>Statistikk</td><td>Mike</td><td>🔴 Blokkert</td></tr></tbody></table><p>Mike, si fra hva du trenger.</p>" },
+    "mentions": [],
+    "reactions": [ { "reactionType": "like", "user": { "user": { "id": "u-mike" } } } ],
+    "attachments": []
+  },
+  "image": {
+    "id": "1728560000002",
+    "messageType": "message",
+    "createdDateTime": "2026-10-09T09:05:00Z",
+    "from": { "user": { "id": "u-eva", "displayName": "Eva Ortega" } },
+    "body": { "contentType": "html", "content": "<p>Ny versjon av tomtilstanden:</p><p><img src=\"https://graph.microsoft.com/v1.0/chats/19:abc@thread.v2/messages/1728560000002/hostedContents/aWQ9eF8wLHR5cGU9MSx1cmw9/$value\" width=\"480\" height=\"300\" alt=\"image\" itemscope=\"\" itemtype=\"http://schema.skype.com/AMSImage\"></p>" },
+    "mentions": [],
+    "reactions": [],
+    "attachments": []
+  },
+  "mention": {
+    "id": "1728560000003",
+    "messageType": "message",
+    "createdDateTime": "2026-10-09T09:07:00Z",
+    "from": { "user": { "id": "u-nora", "displayName": "Nora Gale" } },
+    "body": { "contentType": "html", "content": "<p><at id=\"0\">Eva Ortega</at> og <at id=\"1\">Sam Hale</at>, kan dere ta en titt på <a href=\"https://github.com/SlyOtis/chatnip/pull/57\">PR #57</a> før lunsj?</p>" },
+    "mentions": [
+      { "id": 0, "mentionText": "Eva Ortega", "mentioned": { "user": { "id": "u-eva", "displayName": "Eva Ortega" } } },
+      { "id": 1, "mentionText": "Sam Hale", "mentioned": { "user": { "id": "u-sam", "displayName": "Sam Hale" } } }
+    ],
+    "reactions": [],
+    "attachments": []
+  },
+  "reply": {
+    "id": "1728560000004",
+    "messageType": "message",
+    "createdDateTime": "2026-10-09T09:10:00Z",
+    "from": { "user": { "id": "u-eva", "displayName": "Eva Ortega" } },
+    "body": { "contentType": "html", "content": "<attachment id=\"1728560000003\"></attachment><p>Ja, jeg tar den nå 👀</p>" },
+    "mentions": [],
+    "reactions": [],
+    "attachments": [ { "id": "1728560000003", "contentType": "messageReference", "content": "{\"messageId\":\"1728560000003\",\"messagePreview\":\"Eva Ortega og Sam Hale, kan dere ta en titt på PR #57 før lunsj?\",\"messageSender\":{\"user\":{\"displayName\":\"Nora Gale\"}}}" } ]
+  },
+  "edited": {
+    "id": "1728560000005",
+    "messageType": "message",
+    "createdDateTime": "2026-10-09T09:12:00Z",
+    "lastEditedDateTime": "2026-10-09T09:20:00Z",
+    "from": { "user": { "id": "u-sam", "displayName": "Sam Hale" } },
+    "body": { "contentType": "html", "content": "<p>Ser på den etter standup, <b>ikke</b> før lunsj, beklager.</p>" },
+    "mentions": [],
+    "reactions": [],
+    "attachments": []
+  },
+  "deleted": {
+    "id": "1728560000006",
+    "messageType": "message",
+    "createdDateTime": "2026-10-09T09:13:00Z",
+    "deletedDateTime": "2026-10-09T09:14:00Z",
+    "from": { "user": { "id": "u-sam", "displayName": "Sam Hale" } },
+    "body": { "contentType": "html", "content": "" },
+    "mentions": [],
+    "reactions": [],
+    "attachments": []
+  }
+}

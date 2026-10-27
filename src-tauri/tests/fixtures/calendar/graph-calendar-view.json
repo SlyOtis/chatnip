@@ -1,0 +1,51 @@
+{
+  "value": [
+    {
+      "id": "AAMkAGI2-ev-1",
+      "iCalUId": "040000008200E00074C5B7101A82E008000000001",
+      "subject": "Signering: plattformdrift 2027",
+      "bodyPreview": "  Vi går gjennom avtalen og signerer.  ",
+      "start": { "dateTime": "2026-10-16T11:00:00.0000000", "timeZone": "UTC" },
+      "end": { "dateTime": "2026-10-16T12:00:00.0000000", "timeZone": "UTC" },
+      "isAllDay": false,
+      "isCancelled": false,
+      "location": { "displayName": "Microsoft Teams Meeting" },
+      "attendees": [
+        { "type": "required", "status": { "response": "accepted" }, "emailAddress": { "name": "Anna Berg", "address": "Anna.Berg@client.example" } },
+        { "type": "required", "status": { "response": "none" }, "emailAddress": { "name": "Milo Oakes", "address": "milo@northwind.example" } }
+      ],
+      "organizer": { "emailAddress": { "name": "Anna Berg", "address": "anna.berg@client.example" } },
+      "responseStatus": { "response": "accepted", "time": "2026-10-10T08:00:00Z" },
+      "isOnlineMeeting": true,
+      "onlineMeeting": { "joinUrl": "https://teams.microsoft.com/l/meetup-join/19%3ameeting_abc" },
+      "lastModifiedDateTime": "2026-10-10T08:01:02.123Z"
+    },
+    {
+      "id": "AAMkAGI2-ev-2",
+      "iCalUId": "040000008200E00074C5B7101A82E008000000002",
+      "subject": "Høstferie",
+      "bodyPreview": "",
+      "start": { "dateTime": "2026-10-19T00:00:00.0000000", "timeZone": "UTC" },
+      "end": { "dateTime": "2026-10-24T00:00:00.0000000", "timeZone": "UTC" },
+      "isAllDay": true,
+      "isCancelled": false,
+      "location": { "displayName": "" },
+      "attendees": [],
+      "organizer": { "emailAddress": { "name": "Milo Oakes", "address": "milo@northwind.example" } },
+      "responseStatus": { "response": "organizer" },
+      "isOnlineMeeting": false,
+      "onlineMeeting": null,
+      "lastModifiedDateTime": "2026-09-01T10:00:00Z"
+    },
+    {
+      "id": "AAMkAGI2-ev-3",
+      "subject": "Avlyst: arkitektur",
+      "start": { "dateTime": "2026-10-17T07:00:00.0000000", "timeZone": "UTC" },
+      "end": { "dateTime": "2026-10-17T08:00:00.0000000", "timeZone": "UTC" },
+      "isCancelled": true,
+      "lastModifiedDateTime": "2026-10-11T07:00:00Z"
+    },
+    { "id": "AAMkAGI2-broken", "subject": "No start" }
+  ],
+  "@odata.nextLink": "https://graph.microsoft.com/v1.0/me/calendars/AAMkAGI2-cal-1/calendarView?$skip=200"
+}

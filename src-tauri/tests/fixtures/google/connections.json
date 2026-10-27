@@ -1,0 +1,17 @@
+{
+  "connections": [
+    {
+      "resourceName": "people/c1",
+      "names": [{ "displayName": "Anna Berg", "givenName": "Anna", "familyName": "Berg" }],
+      "emailAddresses": [{ "value": "Anna.Berg@client.example" }],
+      "photos": [{ "url": "https://lh3.googleusercontent.com/anna", "default": false }],
+      "organizations": [{ "name": "Kunde AS", "title": "Innkjøp" }],
+      "phoneNumbers": [{ "value": "+47 900 00 000" }]
+    },
+    {
+      "resourceName": "people/c2",
+      "names": [{ "displayName": "Uten adresse" }]
+    }
+  ],
+  "totalPeople": 2
+}

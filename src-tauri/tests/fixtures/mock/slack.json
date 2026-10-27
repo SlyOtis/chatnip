@@ -1,0 +1,38 @@
+{
+  "parent": {
+    "type": "message", "user": "U0MIKE", "ts": "1728561000.000100", "thread_ts": "1728561000.000100", "reply_count": 6,
+    "text": "Release 0.5 is cut :package: Notes in <https://github.com/SlyOtis/chatnip/releases/tag/v0.5.0|the release>, please smoke test on your machines",
+    "blocks": [ { "type": "rich_text", "elements": [
+      { "type": "rich_text_section", "elements": [ { "type": "text", "text": "Release 0.5 is cut " }, { "type": "emoji", "name": "package", "unicode": "1f4e6" }, { "type": "text", "text": " Notes in " }, { "type": "link", "url": "https://github.com/SlyOtis/chatnip/releases/tag/v0.5.0", "text": "the release" } ] },
+      { "type": "rich_text_list", "style": "ordered", "elements": [
+        { "type": "rich_text_section", "elements": [ { "type": "text", "text": "Mail renders in a sandboxed frame" } ] },
+        { "type": "rich_text_section", "elements": [ { "type": "text", "text": "Expand and collapse everywhere" } ] },
+        { "type": "rich_text_section", "elements": [ { "type": "text", "text": "Mock clients carry real content" } ] }
+      ] },
+      { "type": "rich_text_quote", "elements": [ { "type": "text", "text": "Ship small, ship often." } ] },
+      { "type": "rich_text_preformatted", "elements": [ { "type": "text", "text": "just build && open src-tauri/target/release/bundle/macos/Chatnip.app" } ] }
+    ] } ]
+  },
+  "replies": [
+    { "type": "message", "user": "U0SAM", "ts": "1728561060.000200", "thread_ts": "1728561000.000100", "text": "Smoke tested on Sonoma, all good :white_check_mark:" },
+    { "type": "message", "user": "U0HUGO", "ts": "1728561120.000300", "thread_ts": "1728561000.000100", "text": "The newsletter now sits on a light inset in dark mode, much better" },
+    { "type": "message", "user": "U0ANNA", "ts": "1728561180.000400", "thread_ts": "1728561000.000100", "text": "Load images remembers the sender for me :ok_hand:" },
+    { "type": "message", "user": "U0SAM", "ts": "1728561240.000500", "thread_ts": "1728561000.000100", "text": "Found one: `⇧C` collapses the thread but not the quote in the last mail", "files": [ { "id": "F0SHOT1", "name": "collapse-bug.png", "mimetype": "image/png", "size": 182044, "url_private": "https://picsum.photos/id/180/960/600" } ] },
+    { "type": "message", "user": "U0MIKE", "ts": "1728561300.000600", "thread_ts": "1728561000.000100", "text": "Good catch, fixing in 0.5.1" },
+    { "type": "message", "user": "U0JONAS", "ts": "1728561360.000700", "thread_ts": "1728561000.000100", "text": "Kunde AS is happy with the demo build, thanks all :tada:" }
+  ],
+  "huddle": {
+    "type": "message", "subtype": "huddle_thread", "user": "U0MIKE", "ts": "1728561400.000800",
+    "text": "A huddle happened in #dev: Mike, Sam and Hugo talked for 14 minutes",
+    "room": { "id": "R0HUDDLE", "name": "", "participant_history": ["U0MIKE", "U0SAM", "U0HUGO"], "date_start": 1728561400, "date_end": 1728562240 }
+  },
+  "files": {
+    "type": "message", "subtype": "file_share", "user": "U0HUGO", "ts": "1728561500.000900",
+    "text": "Board deck and the numbers behind it",
+    "files": [
+      { "id": "F0DECK", "name": "board-q4.pdf", "mimetype": "application/pdf", "size": 2481233, "url_private": "https://files.slack.com/files-pri/T0/F0DECK/board-q4.pdf" },
+      { "id": "F0NUMS", "name": "numbers-q4.xlsx", "mimetype": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet", "size": 48211, "url_private": "https://files.slack.com/files-pri/T0/F0NUMS/numbers-q4.xlsx" },
+      { "id": "F0PHOTO", "name": "offsite.jpg", "mimetype": "image/jpeg", "size": 911002, "url_private": "https://picsum.photos/id/1015/960/640" }
+    ]
+  }
+}

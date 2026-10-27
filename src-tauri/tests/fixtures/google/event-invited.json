@@ -1,0 +1,13 @@
+{
+  "id": "ev-9",
+  "status": "confirmed",
+  "summary": "Avtalesignering",
+  "start": { "dateTime": "2026-10-16T11:00:00Z" },
+  "end": { "dateTime": "2026-10-16T12:00:00Z" },
+  "organizer": { "email": "anna.berg@client.example" },
+  "attendees": [
+    { "email": "anna.berg@client.example", "organizer": true, "responseStatus": "accepted" },
+    { "email": "milo@sundial.example", "self": true, "responseStatus": "needsAction" }
+  ],
+  "updated": "2026-10-10T08:00:00Z"
+}

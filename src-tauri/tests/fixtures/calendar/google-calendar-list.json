@@ -1,0 +1,8 @@
+{
+  "kind": "calendar#calendarList",
+  "items": [
+    { "id": "milo@sundial.example", "summary": "milo@sundial.example", "backgroundColor": "#0b8043", "primary": true, "accessRole": "owner" },
+    { "id": "team@group.calendar.google.com", "summary": "Team", "summaryOverride": "Sundial team", "backgroundColor": "#9fe1e7", "accessRole": "writer" },
+    { "id": "no.norwegian#holiday@group.v.calendar.google.com", "summary": "Helligdager i Norge", "backgroundColor": "#16a765", "accessRole": "reader" }
+  ]
+}

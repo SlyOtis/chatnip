@@ -1,0 +1,9 @@
+{
+  "ok": true,
+  "emoji": {
+    "party_parrot": "https://emoji.slack-edge.com/T0/party_parrot/2f0f.gif",
+    "partyparrot": "alias:party_parrot",
+    "shipit": "https://emoji.slack-edge.com/T0/shipit/7d3a.png"
+  },
+  "cache_ts": "1760515200.000000"
+}

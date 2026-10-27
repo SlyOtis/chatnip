@@ -1,0 +1,26 @@
+{
+  "id": "1700",
+  "replyToId": null,
+  "messageType": "message",
+  "createdDateTime": "2026-10-08T09:41:00.000Z",
+  "chatId": "19:abc@thread.v2",
+  "from": { "application": null, "user": { "id": "u-milo", "displayName": "Milo Oakes", "userIdentityType": "aadUser" } },
+  "body": {
+    "contentType": "html",
+    "content": "<attachment id=\"1699\"></attachment><p><at id=\"0\">Nora Gale</at> <at id=\"1\">Sam Hale</at> can you check the deploy before lunch?</p><p><img src=\"https://graph.microsoft.com/v1.0/chats/19:abc/messages/1700/hostedContents/aWQ9/$value\" width=\"640\" height=\"360\" alt=\"image\" itemid=\"aWQ9\"></p><codeblock class=\"Bash\"><code>kubectl rollout status deploy/api</code></codeblock><p>Pipeline: <a href=\"https://dev.azure.com/northwind/pipelines/12\" title=\"https://dev.azure.com/northwind/pipelines/12\">run 12</a></p><attachment id=\"att-card\"></attachment><attachment id=\"att-file\"></attachment>"
+  },
+  "attachments": [
+    { "id": "1699", "contentType": "messageReference", "content": "{\"messageId\":\"1699\",\"messagePreview\":\"Is staging ready?\",\"messageSender\":{\"user\":{\"id\":\"u-nora\",\"displayName\":\"Nora Gale\"}}}" },
+    { "id": "att-card", "contentType": "application/vnd.microsoft.card.adaptive", "content": "{\"type\":\"AdaptiveCard\",\"version\":\"1.5\",\"body\":[{\"type\":\"TextBlock\",\"text\":\"Deploy approved\",\"weight\":\"Bolder\",\"size\":\"Medium\"},{\"type\":\"Container\",\"items\":[{\"type\":\"TextBlock\",\"text\":\"Staging is green.\",\"wrap\":true},{\"type\":\"FactSet\",\"facts\":[{\"title\":\"Environment\",\"value\":\"staging\"},{\"title\":\"Version\",\"value\":\"0.4.1\"}]}]}],\"actions\":[{\"type\":\"Action.OpenUrl\",\"title\":\"Open pipeline\",\"url\":\"https://dev.azure.com/northwind/pipelines/12\"}]}" },
+    { "id": "att-file", "contentType": "reference", "contentUrl": "https://northwind.sharepoint.com/sites/dev/Shared%20Documents/release-notes.pdf", "name": "release-notes.pdf" }
+  ],
+  "mentions": [
+    { "id": 0, "mentionText": "Nora Gale", "mentioned": { "user": { "id": "u-nora", "displayName": "Nora Gale", "userIdentityType": "aadUser" } } },
+    { "id": 1, "mentionText": "Sam Hale", "mentioned": { "user": { "id": "u-sam", "displayName": "Sam Hale", "userIdentityType": "aadUser" } } }
+  ],
+  "reactions": [
+    { "reactionType": "like", "createdDateTime": "2026-10-08T09:42:00.000Z", "user": { "user": { "id": "u-nora", "displayName": null } } },
+    { "reactionType": "like", "createdDateTime": "2026-10-08T09:43:00.000Z", "user": { "user": { "id": "u-sam", "displayName": null } } },
+    { "reactionType": "heart", "createdDateTime": "2026-10-08T09:44:00.000Z", "user": { "user": { "id": "u-eva", "displayName": null } } }
+  ]
+}

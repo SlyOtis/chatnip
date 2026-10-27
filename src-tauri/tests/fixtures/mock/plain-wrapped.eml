@@ -1,0 +1,39 @@
+Received: from smtp.sundial.example (smtp.sundial.example [46.30.212.9]) by mx.chatnip.local with ESMTPS; Sat, 3 Oct 2026 09:14:00 +0000
+From: Hugo Brandt <hugo.brandt@sundial.example>
+To: Milo Oakes <milo@northwind.example>
+Subject: Re: Prising av enterprise-planen
+Date: Sat, 3 Oct 2026 11:13:58 +0200
+Message-ID: <prising-3@sundial.example>
+In-Reply-To: <prising-2@northwind.example>
+User-Agent: Mutt/2.2.12
+MIME-Version: 1.0
+Content-Type: text/plain; charset=utf-8; format=flowed
+Content-Transfer-Encoding: 8bit
+
+Hei Milo,
+
+Kort svar: jeg ville gått for per sete med et gulv, ikke per tenant. Det
+er lettere å forklare for innkjøp, og det skalerer med verdien kunden faktisk
+får. Tenant-prising straffer de som samler alt på ett sted, og det er jo
+nettopp det produktet vil at de skal gjøre.
+
+Ta gjerne en runde med Anna hos Kunde AS før vi låser noe.
+
+-- 
+Hugo Brandt
+Rådgiver, Sundial
++47 922 33 444
+
+On Fri, Oct 02, 2026 at 04:41:12PM +0200, Milo Oakes wrote:
+> Hei Hugo,
+>
+> Vi må sette en pris på enterprise-planen før styremøtet. Jeg ser tre
+> alternativer: per sete med et gulv på 20 seter, per tenant med fri bruk
+> innenfor hver tenant, eller en flat pris per organisasjon med et tak på
+> antall integrasjoner. Per sete er enklest å selge, men tenant-modellen
+> passer bedre med hvordan kundene faktisk bruker produktet når de har flere
+> Entra-tenanter og Slack-workspaces som skal samles i én innboks.
+>
+> Hva tenker du? Jeg trenger et svar innen tirsdag.
+>
+> Milo

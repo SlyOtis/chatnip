@@ -1,0 +1,18 @@
+{
+  "history": [
+    {
+      "id": "9001",
+      "labelsRemoved": [
+        { "message": { "id": "m-1", "threadId": "t-1", "labelIds": ["INBOX", "CATEGORY_UPDATES"] }, "labelIds": ["UNREAD"] }
+      ]
+    },
+    {
+      "id": "9002",
+      "labelsAdded": [
+        { "message": { "id": "m-2", "threadId": "t-1", "labelIds": ["INBOX", "UNREAD", "Label_7"] }, "labelIds": ["Label_7"] }
+      ]
+    }
+  ],
+  "nextPageToken": "history-2",
+  "historyId": "9002"
+}

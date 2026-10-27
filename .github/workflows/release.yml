@@ -1,0 +1,82 @@
+name: Release
+
+on:
+  push:
+    tags: ['v*']
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    name: Build, sign and notarize
+    runs-on: macos-14
+    outputs:
+      version: ${{ steps.version.outputs.version }}
+      sha256: ${{ steps.checksum.outputs.sha256 }}
+    steps:
+      - uses: actions/checkout@v4
+      - id: version
+        run: echo "version=${GITHUB_REF_NAME#v}" >> "$GITHUB_OUTPUT"
+      - name: Tag matches the app version
+        run: test "$(jq -r .version src-tauri/tauri.conf.json)" = "${{ steps.version.outputs.version }}"
+      - uses: pnpm/action-setup@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: lts/*
+          cache: pnpm
+      - uses: dtolnay/rust-toolchain@stable
+        with:
+          targets: aarch64-apple-darwin,x86_64-apple-darwin
+      - uses: swatinem/rust-cache@v2
+        with:
+          workspaces: src-tauri
+      - run: pnpm install --frozen-lockfile
+      - uses: tauri-apps/tauri-action@v0
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          APPLE_CERTIFICATE: ${{ secrets.APPLE_CERTIFICATE }}
+          APPLE_CERTIFICATE_PASSWORD: ${{ secrets.APPLE_CERTIFICATE_PASSWORD }}
+          APPLE_SIGNING_IDENTITY: ${{ secrets.APPLE_SIGNING_IDENTITY }}
+          APPLE_ID: ${{ secrets.APPLE_ID }}
+          APPLE_PASSWORD: ${{ secrets.APPLE_PASSWORD }}
+          APPLE_TEAM_ID: ${{ secrets.APPLE_TEAM_ID }}
+        with:
+          tagName: ${{ github.ref_name }}
+          releaseName: Chatnip ${{ steps.version.outputs.version }}
+          generateReleaseNotes: true
+          releaseDraft: false
+          args: --target universal-apple-darwin
+      - id: checksum
+        name: Verify and publish the checksum
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          DMG: src-tauri/target/universal-apple-darwin/release/bundle/dmg/Chatnip_${{ steps.version.outputs.version }}_universal.dmg
+        run: |
+          spctl -a -t open --context context:primary-signature -vv "$DMG"
+          xcrun stapler validate "$DMG"
+          (cd "$(dirname "$DMG")" && shasum -a 256 "$(basename "$DMG")") > SHA256SUMS
+          echo "sha256=$(awk '{print $1}' SHA256SUMS)" >> "$GITHUB_OUTPUT"
+          gh release upload "$GITHUB_REF_NAME" SHA256SUMS --clobber
+
+  cask:
+    name: Update the Homebrew cask
+    needs: build
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Render and push the cask
+        env:
+          GH_TOKEN: ${{ secrets.HOMEBREW_TAP_TOKEN }}
+          VERSION: ${{ needs.build.outputs.version }}
+          SHA256: ${{ needs.build.outputs.sha256 }}
+          TAP: SlyOtis/homebrew-chatnip
+        run: |
+          sed -e "s/^  version \".*\"/  version \"$VERSION\"/" -e "s/^  sha256 \".*\"/  sha256 \"$SHA256\"/" packaging/homebrew/Casks/chatnip.rb > chatnip.rb
+          grep -q "sha256 \"$SHA256\"" chatnip.rb
+          put() {
+            sha=$(gh api "repos/$TAP/contents/$1" --jq .sha 2>/dev/null || true)
+            gh api -X PUT "repos/$TAP/contents/$1" -f message="chatnip $VERSION" -f content="$(base64 -w0 "$2")" ${sha:+-f sha="$sha"}
+          }
+          put Casks/chatnip.rb chatnip.rb
+          put README.md packaging/homebrew/README.md

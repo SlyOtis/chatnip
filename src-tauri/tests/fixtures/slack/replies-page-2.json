@@ -1,0 +1,8 @@
+{
+  "ok": true,
+  "messages": [
+    { "type": "message", "ts": "1760515220.000100", "user": "U0ANNA", "text": "Andre svar :+1::skin-tone-3:", "thread_ts": "1760515200.000100" }
+  ],
+  "has_more": false,
+  "response_metadata": { "next_cursor": "" }
+}

@@ -1,0 +1,75 @@
+{
+  "_metadata": {
+    "major_version": 1,
+    "minor_version": 1
+  },
+  "display_information": {
+    "name": "Chatnip",
+    "description": "A unified inbox that runs on your own Mac. Reads and sends your own Slack messages; nothing leaves the device except calls to Slack.",
+    "background_color": "#2b3038"
+  },
+  "oauth_config": {
+    "redirect_urls": [
+      "http://localhost:48731/callback/slack"
+    ],
+    "scopes": {
+      "user": [
+        "channels:history",
+        "channels:read",
+        "channels:write",
+        "groups:history",
+        "groups:read",
+        "groups:write",
+        "im:history",
+        "im:read",
+        "im:write",
+        "mpim:history",
+        "mpim:read",
+        "mpim:write",
+        "users:read",
+        "users:read.email",
+        "users.profile:write",
+        "chat:write",
+        "reactions:read",
+        "reactions:write",
+        "pins:read",
+        "pins:write",
+        "files:read",
+        "files:write",
+        "emoji:read",
+        "team:read",
+        "search:read",
+        "usergroups:read"
+      ]
+    },
+    "pkce_enabled": true
+  },
+  "settings": {
+    "org_deploy_enabled": false,
+    "socket_mode_enabled": true,
+    "token_rotation_enabled": true,
+    "event_subscriptions": {
+      "user_events": [
+        "message.channels",
+        "message.groups",
+        "message.im",
+        "message.mpim",
+        "reaction_added",
+        "reaction_removed",
+        "pin_added",
+        "pin_removed",
+        "channel_created",
+        "channel_rename",
+        "channel_archive",
+        "channel_unarchive",
+        "group_rename",
+        "group_archive",
+        "group_unarchive",
+        "im_created",
+        "member_joined_channel",
+        "member_left_channel",
+        "user_change"
+      ]
+    }
+  }
+}

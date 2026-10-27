@@ -1,0 +1,6 @@
+{
+  "@odata.nextLink": "{{base}}/me/mailFolders/inbox/messages/delta?$skiptoken=next",
+  "value": [
+    { "id": "AAMk-1", "isRead": true, "conversationId": "conv-1" }
+  ]
+}

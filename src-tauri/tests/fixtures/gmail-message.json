@@ -1,0 +1,46 @@
+{
+  "id": "18f2a9c0d1e2",
+  "threadId": "18f2a90000aa",
+  "labelIds": ["INBOX", "UNREAD"],
+  "snippet": "Takk, vi ses torsdag.",
+  "internalDate": "1791463200000",
+  "payload": {
+    "mimeType": "multipart/mixed",
+    "filename": "",
+    "headers": [
+      { "name": "From", "value": "Anna Berg <anna.berg@client.example>" },
+      { "name": "To", "value": "Milo Oakes <milo@northwind.example>" },
+      { "name": "Subject", "value": "Re: Spørsmål om kontrakten" },
+      { "name": "Message-ID", "value": "<CAkontrakt-2@mail.gmail.com>" },
+      { "name": "In-Reply-To", "value": "<kontrakt-1@northwind.example>" },
+      { "name": "Received", "value": "from mail-ej1-f47.google.com (mail-ej1-f47.google.com. [209.85.218.47]) by mx.northwind.example; Thu, 8 Oct 2026 10:00:00 +0200" }
+    ],
+    "body": { "size": 0 },
+    "parts": [
+      {
+        "mimeType": "multipart/alternative",
+        "filename": "",
+        "body": { "size": 0 },
+        "parts": [
+          { "partId": "0.0", "mimeType": "text/plain", "filename": "", "body": { "size": 120, "data": "VGFraywgdmkgc2VzIHRvcnNkYWcuIPCfkY0KCk9uIFdlZCwgNyBPY3QgMjAyNiBhdCAxNDowMiwgTWFydGluIE90dGVyc2xhbmQgPG1hcnRpbkBuaW10ZWNoLm5vPiB3cm90ZToKPiBLb250cmFrdGVuIGVyIGtsYXIgZm9yIHNpZ25lcmluZy4K" } },
+          { "partId": "0.1", "mimeType": "text/html", "filename": "", "body": { "size": 300, "data": "PGRpdiBkaXI9Imx0ciI-VGFraywgdmkgc2VzIHRvcnNkYWcuIPCfkY08L2Rpdj48YnI-PGRpdiBjbGFzcz0iZ21haWxfcXVvdGUiPjxkaXYgY2xhc3M9ImdtYWlsX2F0dHIiPk9uIFdlZCwgNyBPY3QgMjAyNiBhdCAxNDowMiwgTWFydGluIE90dGVyc2xhbmQgJmx0O21hcnRpbkBuaW10ZWNoLm5vJmd0OyB3cm90ZTo8YnI-PC9kaXY-PGJsb2NrcXVvdGUgY2xhc3M9ImdtYWlsX3F1b3RlIj5Lb250cmFrdGVuIGVyIGtsYXIgZm9yIHNpZ25lcmluZy4gPGltZyBzcmM9ImNpZDpzaWduQG5pbXRlY2gubm8iPjwvYmxvY2txdW90ZT48L2Rpdj4" } },
+          { "partId": "0.2", "mimeType": "text/calendar", "filename": "", "body": { "size": 200, "data": "QkVHSU46VkNBTEVOREFSDQpNRVRIT0Q6UkVRVUVTVA0KQkVHSU46VkVWRU5UDQpVSUQ6c2lnbi0xQGdvb2dsZS5jb20NCkRUU1RBUlQ6MjAyNjEwMTVUMDgwMDAwWg0KRFRFTkQ6MjAyNjEwMTVUMDgzMDAwWg0KU1VNTUFSWTpTaWduZXJpbmcNCk9SR0FOSVpFUjtDTj1Bbm5hIEJlcmc6bWFpbHRvOmFubmEuYmVyZ0BrdW5kZS5ubw0KRU5EOlZFVkVOVA0KRU5EOlZDQUxFTkRBUg0K" } }
+        ]
+      },
+      {
+        "partId": "1",
+        "mimeType": "application/pdf",
+        "filename": "kontrakt.pdf",
+        "headers": [ { "name": "Content-Disposition", "value": "attachment; filename=\"kontrakt.pdf\"" } ],
+        "body": { "attachmentId": "ANGjdJ-pdf", "size": 184320 }
+      },
+      {
+        "partId": "2",
+        "mimeType": "image/png",
+        "filename": "sign.png",
+        "headers": [ { "name": "Content-ID", "value": "<sign@northwind.example>" }, { "name": "Content-Disposition", "value": "inline; filename=\"sign.png\"" } ],
+        "body": { "attachmentId": "ANGjdJ-png", "size": 4096 }
+      }
+    ]
+  }
+}
