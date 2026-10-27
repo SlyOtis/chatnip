@@ -21,7 +21,7 @@ jobs:
       - name: Tag matches the app version
         run: test "$(jq -r .version src-tauri/tauri.conf.json)" = "${{ steps.version.outputs.version }}"
       - uses: pnpm/action-setup@v4
-      - uses: actions/setup-node@v4
+      - uses: actions/setup-node@v7
         with:
           node-version: lts/*
           cache: pnpm
